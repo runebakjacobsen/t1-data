@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-06-01T17:39:23.234435",
+  "version": "3.112",
+  "script_hash": "a60c2ee19b34",
+  "scan_hours": 72,
+  "retention_days": 14,
+  "activities": [
+    {
+      "activity_id": "i152860432",
+      "date": "2026-05-31",
+      "type": "Ride",
+      "name": "Silkeborg Road Cycling",
+      "interval_summary": [
+        "1x 50s 287w",
+        "1x 4m46s 199w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2533,
+          "avg_power": 156,
+          "max_power": 329,
+          "avg_hr": 130,
+          "max_hr": 150,
+          "avg_cadence": 80.95831,
+          "zone": 2,
+          "training_load": 30.382805,
+          "decoupling": -7.0809646
+        },
+        {
+          "type": "WORK",
+          "label": "50s@287w88rpm",
+          "duration_secs": 50,
+          "avg_power": 287,
+          "max_power": 320,
+          "avg_hr": 147,
+          "max_hr": 153,
+          "avg_cadence": 88.4,
+          "zone": 5,
+          "training_load": 1.5910678,
+          "decoupling": -0.53456235
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1437,
+          "avg_power": 152,
+          "max_power": 341,
+          "avg_hr": 128,
+          "max_hr": 157,
+          "avg_cadence": 82.938065,
+          "zone": 2,
+          "training_load": 17.190674,
+          "decoupling": 4.1427197
+        },
+        {
+          "type": "WORK",
+          "label": "286s@199w88rpm",
+          "duration_secs": 286,
+          "avg_power": 199,
+          "max_power": 306,
+          "avg_hr": 134,
+          "max_hr": 145,
+          "avg_cadence": 88.46853,
+          "zone": 3,
+          "training_load": 4.704528,
+          "decoupling": 5.477626
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5563,
+          "avg_power": 157,
+          "max_power": 430,
+          "avg_hr": 128,
+          "max_hr": 149,
+          "avg_cadence": 85.27804,
+          "zone": 2,
+          "training_load": 64.4388,
+          "decoupling": -3.2913318
+        }
+      ]
+    }
+  ]
+}
