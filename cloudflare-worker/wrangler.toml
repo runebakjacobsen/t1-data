@@ -1,0 +1,6 @@
+name = "t1-data-proxy"
+main = "src/index.js"
+compatibility_date = "2025-06-02"
+
+[observability]
+enabled = true
