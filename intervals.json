@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T18:57:29.269666",
+  "generated_at": "2026-06-02T19:12:34.860664",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -76,6 +76,27 @@
           "zone": 2,
           "training_load": 64.4388,
           "decoupling": -3.2913318
+        }
+      ]
+    },
+    {
+      "activity_id": "i153680703",
+      "date": "2026-06-02",
+      "type": "Ride",
+      "name": "Silkeborg - Collins",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5384,
+          "avg_power": 157,
+          "max_power": 354,
+          "avg_hr": 122,
+          "max_hr": 136,
+          "avg_cadence": 86.929596,
+          "zone": 2,
+          "training_load": 60.385857,
+          "decoupling": 4.3047643
         }
       ]
     }
