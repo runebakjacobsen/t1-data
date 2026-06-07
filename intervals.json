@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T12:24:12.446357",
+  "generated_at": "2026-06-07T13:03:24.910347",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -295,6 +295,27 @@
           "zone": 2,
           "training_load": 10.792317,
           "decoupling": 6.552918
+        }
+      ]
+    },
+    {
+      "activity_id": "i155048581",
+      "date": "2026-06-07",
+      "type": "VirtualRide",
+      "name": "Lake Point",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 12600,
+          "avg_power": 152,
+          "max_power": 256,
+          "avg_hr": 123,
+          "max_hr": 143,
+          "avg_cadence": 90.57286,
+          "zone": 2,
+          "training_load": 131.69072,
+          "decoupling": 5.9195065
         }
       ]
     }
