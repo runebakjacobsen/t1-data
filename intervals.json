@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T15:48:32.299695",
+  "generated_at": "2026-06-12T18:12:27.952286",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -456,6 +456,79 @@
           "zone": 1,
           "training_load": 3.7497675,
           "decoupling": 2.4862792
+        }
+      ]
+    },
+    {
+      "activity_id": "i156731982",
+      "date": "2026-06-12",
+      "type": "VirtualRide",
+      "name": "Wk2 Sat - Sweet Spot 2x15",
+      "interval_summary": [
+        "2x 14m51s 228w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 652,
+          "avg_power": 161,
+          "max_power": 251,
+          "avg_hr": 116,
+          "max_hr": 131,
+          "avg_cadence": 88.40523,
+          "zone": 2,
+          "training_load": 7.069582,
+          "decoupling": -12.214345
+        },
+        {
+          "type": "WORK",
+          "label": "891s@228w96rpm",
+          "duration_secs": 886,
+          "avg_power": 228,
+          "max_power": 255,
+          "avg_hr": 143,
+          "max_hr": 156,
+          "avg_cadence": 96.886,
+          "zone": 3,
+          "training_load": 19.656921,
+          "decoupling": 7.704322
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 487,
+          "avg_power": 140,
+          "max_power": 224,
+          "avg_hr": 122,
+          "max_hr": 153,
+          "avg_cadence": 93.505135,
+          "zone": 2,
+          "training_load": 4.4085426,
+          "decoupling": -7.1534796
+        },
+        {
+          "type": "WORK",
+          "label": "891s@228w96rpm",
+          "duration_secs": 896,
+          "avg_power": 228,
+          "max_power": 268,
+          "avg_hr": 149,
+          "max_hr": 157,
+          "avg_cadence": 95.89732,
+          "zone": 3,
+          "training_load": 20.054312,
+          "decoupling": 5.1359158
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 359,
+          "avg_power": 132,
+          "max_power": 225,
+          "avg_hr": 128,
+          "max_hr": 156,
+          "avg_cadence": 88.902504,
+          "zone": 1,
+          "training_load": 3.1167445,
+          "decoupling": -0.18074279
         }
       ]
     }
