@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T17:30:26.541933",
+  "generated_at": "2026-06-23T19:32:15.570167",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -523,6 +523,27 @@
           "zone": 2,
           "training_load": 46.858814,
           "decoupling": -5.7257104
+        }
+      ]
+    },
+    {
+      "activity_id": "i159755853",
+      "date": "2026-06-23",
+      "type": "VirtualRide",
+      "name": "Recovery Spin 45min Z1",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2700,
+          "avg_power": 132,
+          "max_power": 211,
+          "avg_hr": 109,
+          "max_hr": 117,
+          "avg_cadence": 87.36815,
+          "zone": 1,
+          "training_load": 20.25544,
+          "decoupling": -1.5603747
         }
       ]
     }
