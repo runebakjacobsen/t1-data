@@ -1,52 +1,10 @@
 {
-  "generated_at": "2026-06-23T22:48:18.853413",
+  "generated_at": "2026-06-24T00:03:52.295856",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i155843115",
-      "date": "2026-06-09",
-      "type": "VirtualRide",
-      "name": "Adliswil Virtual Cycling",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 5117,
-          "avg_power": 157,
-          "max_power": 202,
-          "avg_hr": 122,
-          "max_hr": 133,
-          "avg_cadence": 87.588234,
-          "zone": 2,
-          "training_load": 57.0374,
-          "decoupling": 2.1771998
-        }
-      ]
-    },
-    {
-      "activity_id": "i155839804",
-      "date": "2026-06-09",
-      "type": "VirtualRide",
-      "name": "MyWhoosh - Endurance 1.5h Z2",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 5117,
-          "avg_power": 157,
-          "max_power": 202,
-          "avg_hr": 122,
-          "max_hr": 133,
-          "avg_cadence": 87.588234,
-          "zone": 2,
-          "training_load": 57.0374,
-          "decoupling": 2.1771998
-        }
-      ]
-    },
     {
       "activity_id": "i156164612",
       "date": "2026-06-10",
