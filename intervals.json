@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-06-28T23:54:08.820921",
+  "generated_at": "2026-06-29T04:43:34.136323",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i157159326",
-      "date": "2026-06-14",
-      "type": "VirtualRide",
-      "name": "Wk2 Sun - Long Endurance 4h (PEAK)",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 15670,
-          "avg_power": 156,
-          "max_power": 228,
-          "avg_hr": 118,
-          "max_hr": 136,
-          "avg_cadence": 88.48813,
-          "zone": 2,
-          "training_load": 150.83112,
-          "decoupling": 3.0932636
-        }
-      ]
-    },
     {
       "activity_id": "i157843443",
       "date": "2026-06-16",
