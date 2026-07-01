@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-06-30T22:51:56.006273",
+  "generated_at": "2026-07-01T00:14:14.915523",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i157843443",
-      "date": "2026-06-16",
-      "type": "VirtualRide",
-      "name": "Endurance 1.5h Z2",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 5100,
-          "avg_power": 157,
-          "max_power": 227,
-          "avg_hr": 119,
-          "max_hr": 129,
-          "avg_cadence": 88.69804,
-          "zone": 2,
-          "training_load": 54.816895,
-          "decoupling": -0.24766588
-        }
-      ]
-    },
     {
       "activity_id": "i158151091",
       "date": "2026-06-17",
