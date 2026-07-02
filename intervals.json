@@ -1,83 +1,10 @@
 {
-  "generated_at": "2026-07-01T23:57:51.495887",
+  "generated_at": "2026-07-02T04:15:19.397444",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i158151091",
-      "date": "2026-06-17",
-      "type": "VirtualRide",
-      "name": "Wk3 Wed - Threshold Sharpener 2x10",
-      "interval_summary": [
-        "2x 10m9s 249w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 578,
-          "avg_power": 164,
-          "max_power": 214,
-          "avg_hr": 122,
-          "max_hr": 136,
-          "avg_cadence": 89.3564,
-          "zone": 2,
-          "training_load": 6.8576307,
-          "decoupling": -14.736024
-        },
-        {
-          "type": "WORK",
-          "label": "609s@249w96rpm",
-          "duration_secs": 622,
-          "avg_power": 248,
-          "max_power": 292,
-          "avg_hr": 145,
-          "max_hr": 153,
-          "avg_cadence": 97.11575,
-          "zone": 4,
-          "training_load": 16.471146,
-          "decoupling": 2.0794694
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 376,
-          "avg_power": 140,
-          "max_power": 261,
-          "avg_hr": 120,
-          "max_hr": 149,
-          "avg_cadence": 92.47802,
-          "zone": 2,
-          "training_load": 3.5460212,
-          "decoupling": -10.608523
-        },
-        {
-          "type": "WORK",
-          "label": "609s@249w96rpm",
-          "duration_secs": 595,
-          "avg_power": 250,
-          "max_power": 279,
-          "avg_hr": 145,
-          "max_hr": 154,
-          "avg_cadence": 95.09412,
-          "zone": 4,
-          "training_load": 15.883482,
-          "decoupling": 5.170757
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 361,
-          "avg_power": 134,
-          "max_power": 241,
-          "avg_hr": 122,
-          "max_hr": 152,
-          "avg_cadence": 89.77008,
-          "zone": 1,
-          "training_load": 3.3131642,
-          "decoupling": 2.518158
-        }
-      ]
-    },
     {
       "activity_id": "i158904432",
       "date": "2026-06-20",
