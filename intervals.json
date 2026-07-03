@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T17:00:14.111382",
+  "generated_at": "2026-07-03T18:39:47.354307",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -817,6 +817,27 @@
           "max_hr": 127,
           "avg_cadence": 81.0,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i162455834",
+      "date": "2026-07-03",
+      "type": "VirtualRide",
+      "name": "W27 - Z2 Spin 30min",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1800,
+          "avg_power": 162,
+          "max_power": 214,
+          "avg_hr": 119,
+          "max_hr": 133,
+          "avg_cadence": 90.45,
+          "zone": 2,
+          "training_load": 21.355942,
+          "decoupling": -3.4600418
         }
       ]
     }
