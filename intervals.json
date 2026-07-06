@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-07-05T23:47:23.172210",
+  "generated_at": "2026-07-06T04:09:46.544792",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i159109788",
-      "date": "2026-06-21",
-      "type": "Ride",
-      "name": "Easy Endurance 1h (D-6)",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4000,
-          "avg_power": 142,
-          "max_power": 291,
-          "avg_hr": 113,
-          "max_hr": 126,
-          "avg_cadence": 80.81497,
-          "zone": 2,
-          "training_load": 34.74958,
-          "decoupling": -2.9120955
-        }
-      ]
-    },
     {
       "activity_id": "i159470441",
       "date": "2026-06-22",
