@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-07-06T23:17:22.890758",
+  "generated_at": "2026-07-07T01:17:47.138659",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i159470441",
-      "date": "2026-06-22",
-      "type": "Ride",
-      "name": "Wk4 Mon (D-5) - Endurance + Touches",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4373,
-          "avg_power": 152,
-          "max_power": 414,
-          "avg_hr": 117,
-          "max_hr": 140,
-          "avg_cadence": 83.70707,
-          "zone": 2,
-          "training_load": 46.858814,
-          "decoupling": -5.7257104
-        }
-      ]
-    },
     {
       "activity_id": "i159755853",
       "date": "2026-06-23",
