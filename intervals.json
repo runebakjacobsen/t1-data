@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T08:55:35.900237",
+  "generated_at": "2026-07-11T10:20:53.708588",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -755,6 +755,27 @@
           "zone": 2,
           "training_load": 13.121412,
           "decoupling": 0.6979876
+        }
+      ]
+    },
+    {
+      "activity_id": "i164695960",
+      "date": "2026-07-11",
+      "type": "Ride",
+      "name": "W28 - Z2 Bike 90min (pre-long-run)",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5934,
+          "avg_power": 168,
+          "max_power": 393,
+          "avg_hr": 119,
+          "max_hr": 133,
+          "avg_cadence": 85.88294,
+          "zone": 2,
+          "training_load": 68.654274,
+          "decoupling": -5.5910487
         }
       ]
     }
