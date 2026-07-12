@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T09:07:06.149616",
+  "generated_at": "2026-07-12T10:43:43.008442",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -376,6 +376,54 @@
           "zone": 2,
           "training_load": 68.654274,
           "decoupling": -5.5910487
+        }
+      ]
+    },
+    {
+      "activity_id": "i164948934",
+      "date": "2026-07-12",
+      "type": "Run",
+      "name": "W28 - 10km Easy Long Total",
+      "interval_summary": [
+        "1x 1h3m 129bpm",
+        "1x 4m59s 133bpm",
+        "1x 12s 117bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3800s@129bpm78rpm",
+          "duration_secs": 3800,
+          "avg_hr": 129,
+          "max_hr": 141,
+          "avg_cadence": 78.44859,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "299s@133bpm69rpm",
+          "duration_secs": 299,
+          "avg_hr": 133,
+          "max_hr": 145,
+          "avg_cadence": 69.20736,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "12s@117bpm58rpm",
+          "duration_secs": 12,
+          "avg_hr": 117,
+          "max_hr": 119,
+          "avg_cadence": 58.416668,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 119,
+          "max_hr": 119,
+          "avg_cadence": 59.0,
+          "zone": 1
         }
       ]
     }
