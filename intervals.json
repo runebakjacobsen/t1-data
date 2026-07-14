@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T06:26:23.313661",
+  "generated_at": "2026-07-14T08:38:02.500380",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -424,6 +424,64 @@
           "max_hr": 119,
           "avg_cadence": 59.0,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i165534881",
+      "date": "2026-07-14",
+      "type": "Run",
+      "name": "W29 - 8km w/ 3km Controlled Tempo",
+      "interval_summary": [
+        "1x 14m58s 130bpm",
+        "1x 16m57s 151bpm",
+        "1x 19m15s 140bpm",
+        "1x 32s 139bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "898s@130bpm79rpm",
+          "duration_secs": 898,
+          "avg_hr": 130,
+          "max_hr": 145,
+          "avg_cadence": 78.53034,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "1017s@151bpm84rpm",
+          "duration_secs": 1017,
+          "avg_hr": 151,
+          "max_hr": 167,
+          "avg_cadence": 83.92921,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "1155s@140bpm79rpm",
+          "duration_secs": 1155,
+          "avg_hr": 140,
+          "max_hr": 161,
+          "avg_cadence": 78.90389,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "32s@139bpm80rpm",
+          "duration_secs": 32,
+          "avg_hr": 139,
+          "max_hr": 142,
+          "avg_cadence": 79.65625,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 142,
+          "max_hr": 142,
+          "avg_cadence": 80.0,
+          "zone": 3
         }
       ]
     }
