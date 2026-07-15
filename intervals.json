@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T08:31:47.641804",
+  "generated_at": "2026-07-15T10:29:44.428142",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -461,6 +461,54 @@
           "max_hr": 142,
           "avg_cadence": 80.0,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i165909562",
+      "date": "2026-07-15",
+      "type": "Ride",
+      "name": "W29 - Z2 Bike 90min",
+      "interval_summary": [
+        "1x 3m57s 197w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5260,
+          "avg_power": 170,
+          "max_power": 335,
+          "avg_hr": 120,
+          "max_hr": 142,
+          "avg_cadence": 86.22949,
+          "zone": 2,
+          "training_load": 63.47497,
+          "decoupling": -8.719493
+        },
+        {
+          "type": "WORK",
+          "label": "237s@197w92rpm",
+          "duration_secs": 237,
+          "avg_power": 197,
+          "max_power": 255,
+          "avg_hr": 121,
+          "max_hr": 130,
+          "avg_cadence": 91.56118,
+          "zone": 3,
+          "training_load": 3.8985074,
+          "decoupling": 5.988913
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 541,
+          "avg_power": 167,
+          "max_power": 303,
+          "avg_hr": 114,
+          "max_hr": 126,
+          "avg_cadence": 82.59491,
+          "zone": 2,
+          "training_load": 6.55748,
+          "decoupling": -8.5272455
         }
       ]
     }
