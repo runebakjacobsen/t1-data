@@ -1,67 +1,10 @@
 {
-  "generated_at": "2026-07-15T23:16:32.931778",
+  "generated_at": "2026-07-16T00:57:31.686576",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i161838323",
-      "date": "2026-07-01",
-      "type": "Run",
-      "name": "W27 - 3km Easy Shakeout (post-H\u00e6rvejsl\u00f8bet)",
-      "interval_summary": [
-        "2x 5m 125bpm",
-        "1x 13m 129bpm",
-        "1x 2m24s 123bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "300s@125bpm80rpm",
-          "duration_secs": 300,
-          "avg_hr": 126,
-          "max_hr": 143,
-          "avg_cadence": 78.28283,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "780s@129bpm81rpm",
-          "duration_secs": 780,
-          "avg_hr": 129,
-          "max_hr": 138,
-          "avg_cadence": 81.426926,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "300s@125bpm80rpm",
-          "duration_secs": 300,
-          "avg_hr": 123,
-          "max_hr": 128,
-          "avg_cadence": 81.64,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "144s@123bpm80rpm",
-          "duration_secs": 144,
-          "avg_hr": 123,
-          "max_hr": 127,
-          "avg_cadence": 79.833336,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 127,
-          "max_hr": 127,
-          "avg_cadence": 81.0,
-          "zone": 2
-        }
-      ]
-    },
     {
       "activity_id": "i162455834",
       "date": "2026-07-03",
