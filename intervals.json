@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T11:20:05.259166",
+  "generated_at": "2026-07-16T13:02:45.742735",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -452,6 +452,50 @@
           "zone": 2,
           "training_load": 6.55748,
           "decoupling": -8.5272455
+        }
+      ]
+    },
+    {
+      "activity_id": "i166261758",
+      "date": "2026-07-16",
+      "type": "Run",
+      "name": "W29 - 8km Easy Total",
+      "interval_summary": [
+        "1x 5m 127bpm",
+        "1x 48m38s 133bpm",
+        "1x 28s 128bpm"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 25
+        },
+        {
+          "type": "WORK",
+          "label": "300s@127bpm76rpm",
+          "duration_secs": 300,
+          "avg_hr": 127,
+          "max_hr": 140,
+          "avg_cadence": 76.2339,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "2918s@133bpm79rpm",
+          "duration_secs": 2918,
+          "avg_hr": 133,
+          "max_hr": 163,
+          "avg_cadence": 78.827126,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "28s@128bpm79rpm",
+          "duration_secs": 28,
+          "avg_hr": 128,
+          "max_hr": 131,
+          "avg_cadence": 79.21429,
+          "zone": 2
         }
       ]
     }
