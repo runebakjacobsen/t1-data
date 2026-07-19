@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T17:35:21.091478",
+  "generated_at": "2026-07-19T18:40:09.772257",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -573,6 +573,23 @@
           "zone": 2,
           "training_load": 13.0701275,
           "decoupling": -21.834732
+        }
+      ]
+    },
+    {
+      "activity_id": "i167234122",
+      "date": "2026-07-19",
+      "type": "Run",
+      "name": "W29 - 12km Easy Long Total - attempted",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2060,
+          "avg_hr": 130,
+          "max_hr": 139,
+          "avg_cadence": 80.321465,
+          "zone": 2
         }
       ]
     }
