@@ -1,59 +1,10 @@
 {
-  "generated_at": "2026-07-19T23:12:55.260722",
+  "generated_at": "2026-07-20T00:15:00.560691",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i162809837",
-      "date": "2026-07-05",
-      "type": "Run",
-      "name": "W27 - 5km Easy / optional if sore",
-      "interval_summary": [
-        "2x 5m 133bpm",
-        "1x 32m24s 132bpm",
-        "1x 2m27s 133bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "300s@133bpm80rpm",
-          "duration_secs": 300,
-          "avg_hr": 133,
-          "max_hr": 152,
-          "avg_cadence": 77.57718,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "1944s@132bpm79rpm",
-          "duration_secs": 1944,
-          "avg_hr": 132,
-          "max_hr": 144,
-          "avg_cadence": 78.56584,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "300s@133bpm80rpm",
-          "duration_secs": 299,
-          "avg_hr": 132,
-          "max_hr": 136,
-          "avg_cadence": 81.896324,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "147s@133bpm82rpm",
-          "duration_secs": 147,
-          "avg_hr": 133,
-          "max_hr": 141,
-          "avg_cadence": 82.0,
-          "zone": 2
-        }
-      ]
-    },
     {
       "activity_id": "i163460382",
       "date": "2026-07-07",
