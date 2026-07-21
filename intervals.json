@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T09:16:46.878115",
+  "generated_at": "2026-07-21T11:24:32.750569",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -541,6 +541,161 @@
           "max_hr": 139,
           "avg_cadence": 80.321465,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i167695072",
+      "date": "2026-07-21",
+      "type": "Ride",
+      "name": "W30 - Outdoor Z2 Bike 90min (ankle-safe)",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5147,
+          "avg_power": 166,
+          "max_power": 331,
+          "avg_hr": 118,
+          "max_hr": 131,
+          "avg_cadence": 81.89779,
+          "zone": 2,
+          "training_load": 59.08114,
+          "decoupling": -1.4446367
+        }
+      ]
+    },
+    {
+      "activity_id": "i167696194",
+      "date": "2026-07-19",
+      "type": "Run",
+      "name": "Silkeborg Running",
+      "interval_summary": [
+        "1x 5m 127bpm",
+        "1x 29m19s 131bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "300s@127bpm80rpm",
+          "duration_secs": 300,
+          "avg_hr": 127,
+          "max_hr": 138,
+          "avg_cadence": 80.006714,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "1759s@131bpm81rpm",
+          "duration_secs": 1759,
+          "avg_hr": 131,
+          "max_hr": 140,
+          "avg_cadence": 81.22558,
+          "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i167696220",
+      "date": "2026-07-18",
+      "type": "Swim",
+      "name": "Pool Swim",
+      "interval_summary": [
+        "1x 50m 87bpm",
+        "4x 49m 105bpm",
+        "4x 49m 103bpm",
+        "1x 50m 105bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "53s@87bpm39rpm",
+          "duration_secs": 53,
+          "avg_hr": 87,
+          "max_hr": 104,
+          "avg_cadence": 39.166668,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "105s@105bpm36rpm",
+          "duration_secs": 98,
+          "avg_hr": 106,
+          "max_hr": 115,
+          "avg_cadence": 39.0,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "56s@103bpm36rpm",
+          "duration_secs": 51,
+          "avg_hr": 102,
+          "max_hr": 115,
+          "avg_cadence": 38.039215,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "105s@105bpm36rpm",
+          "duration_secs": 111,
+          "avg_hr": 103,
+          "max_hr": 118,
+          "avg_cadence": 36.04819,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "56s@103bpm36rpm",
+          "duration_secs": 61,
+          "avg_hr": 100,
+          "max_hr": 112,
+          "avg_cadence": 35.4,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "105s@105bpm36rpm",
+          "duration_secs": 109,
+          "avg_hr": 103,
+          "max_hr": 116,
+          "avg_cadence": 35.0,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "56s@103bpm36rpm",
+          "duration_secs": 57,
+          "avg_hr": 102,
+          "max_hr": 118,
+          "avg_cadence": 35.0,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "105s@105bpm36rpm",
+          "duration_secs": 101,
+          "avg_hr": 108,
+          "max_hr": 119,
+          "avg_cadence": 35.0,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "56s@103bpm36rpm",
+          "duration_secs": 55,
+          "avg_hr": 106,
+          "max_hr": 118,
+          "avg_cadence": 34.363636,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "169s@105bpm35rpm",
+          "duration_secs": 169,
+          "avg_hr": 105,
+          "max_hr": 121,
+          "avg_cadence": 35.0,
+          "zone": 1
         }
       ]
     }
