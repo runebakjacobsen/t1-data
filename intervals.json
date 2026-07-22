@@ -1,59 +1,10 @@
 {
-  "generated_at": "2026-07-21T23:33:35.638479",
+  "generated_at": "2026-07-22T01:09:07.387361",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i163460382",
-      "date": "2026-07-07",
-      "type": "Run",
-      "name": "W28 - 6.5km Easy Total",
-      "interval_summary": [
-        "2x 5m 132bpm",
-        "1x 32m22s 132bpm",
-        "1x 87s 129bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "300s@132bpm76rpm",
-          "duration_secs": 300,
-          "avg_hr": 134,
-          "max_hr": 165,
-          "avg_cadence": 77.40404,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "1942s@132bpm78rpm",
-          "duration_secs": 1942,
-          "avg_hr": 132,
-          "max_hr": 146,
-          "avg_cadence": 78.27394,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "300s@132bpm76rpm",
-          "duration_secs": 300,
-          "avg_hr": 130,
-          "max_hr": 138,
-          "avg_cadence": 74.95,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "87s@129bpm78rpm",
-          "duration_secs": 87,
-          "avg_hr": 129,
-          "max_hr": 138,
-          "avg_cadence": 78.13793,
-          "zone": 2
-        }
-      ]
-    },
     {
       "activity_id": "i163806854",
       "date": "2026-07-08",
