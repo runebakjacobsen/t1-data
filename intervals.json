@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T11:09:44.799696",
+  "generated_at": "2026-07-26T12:17:41.956774",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -689,6 +689,27 @@
           "max_hr": 131,
           "avg_cadence": 81.21875,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i169343964",
+      "date": "2026-07-26",
+      "type": "Ride",
+      "name": "W30 - Cycling Build Transition 90min Z2 (symptom gate)",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5464,
+          "avg_power": 176,
+          "max_power": 344,
+          "avg_hr": 123,
+          "max_hr": 137,
+          "avg_cadence": 85.740555,
+          "zone": 2,
+          "training_load": 69.88537,
+          "decoupling": 4.763189
         }
       ]
     }
