@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T17:50:55.692794",
+  "generated_at": "2026-07-30T19:42:02.876103",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -654,6 +654,27 @@
           "zone": 2,
           "training_load": 13.537629,
           "decoupling": 8.720111
+        }
+      ]
+    },
+    {
+      "activity_id": "i170879399",
+      "date": "2026-07-30",
+      "type": "Ride",
+      "name": "W31 - Z2 Aerobic Density 75min",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4503,
+          "avg_power": 166,
+          "max_power": 340,
+          "avg_hr": 121,
+          "max_hr": 133,
+          "avg_cadence": 83.437706,
+          "zone": 2,
+          "training_load": 50.87227,
+          "decoupling": -1.8971905
         }
       ]
     }
