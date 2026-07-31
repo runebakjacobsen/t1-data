@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T04:43:53.646476",
+  "generated_at": "2026-07-31T07:38:55.639414",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -631,6 +631,79 @@
           "zone": 2,
           "training_load": 50.87227,
           "decoupling": -1.8971905
+        }
+      ]
+    },
+    {
+      "activity_id": "i170990022",
+      "date": "2026-07-31",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - W31 - Indoor Sweet Spot Durability 2x20 (MyWhoosh ERG)",
+      "interval_summary": [
+        "2x 19m57s 230w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 904,
+          "avg_power": 155,
+          "max_power": 225,
+          "avg_hr": 118,
+          "max_hr": 133,
+          "avg_cadence": 92.01881,
+          "zone": 2,
+          "training_load": 9.964108,
+          "decoupling": -13.96248
+        },
+        {
+          "type": "WORK",
+          "label": "1197s@230w98rpm",
+          "duration_secs": 1197,
+          "avg_power": 230,
+          "max_power": 248,
+          "avg_hr": 149,
+          "max_hr": 158,
+          "avg_cadence": 99.111115,
+          "zone": 4,
+          "training_load": 27.263391,
+          "decoupling": 5.3367615
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 482,
+          "avg_power": 153,
+          "max_power": 218,
+          "avg_hr": 126,
+          "max_hr": 154,
+          "avg_cadence": 85.39419,
+          "zone": 2,
+          "training_load": 5.1153626,
+          "decoupling": -6.200956
+        },
+        {
+          "type": "WORK",
+          "label": "1197s@230w98rpm",
+          "duration_secs": 1196,
+          "avg_power": 230,
+          "max_power": 256,
+          "avg_hr": 153,
+          "max_hr": 163,
+          "avg_cadence": 96.95903,
+          "zone": 4,
+          "training_load": 27.240616,
+          "decoupling": 7.391958
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 732,
+          "avg_power": 148,
+          "max_power": 216,
+          "avg_hr": 129,
+          "max_hr": 163,
+          "avg_cadence": 85.46858,
+          "zone": 2,
+          "training_load": 7.7685585,
+          "decoupling": 10.455669
         }
       ]
     }
