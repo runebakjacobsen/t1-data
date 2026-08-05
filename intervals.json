@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T18:26:07.504837",
+  "generated_at": "2026-08-05T20:10:44.564177",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -693,6 +693,66 @@
           "zone": 5
         }
       ]
+    },
+    {
+      "activity_id": "i172846412",
+      "date": "2026-08-05",
+      "type": "VirtualRide",
+      "name": "P0 W32 - Post-HM Active Recovery 35min (MyWhoosh ERG)",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2141,
+          "avg_power": 129,
+          "max_power": 180,
+          "avg_hr": 108,
+          "max_hr": 116,
+          "avg_cadence": 89.23597,
+          "zone": 1,
+          "training_load": 15.060597,
+          "decoupling": -0.8662519,
+          "avg_dfa_a1": 1.476686
+        }
+      ],
+      "dfa": {
+        "avg": 1.477,
+        "p25": 1.413,
+        "p50": 1.482,
+        "p75": 1.549,
+        "tiz_below_lt1": {
+          "secs": 2102,
+          "pct": 100.0,
+          "avg_hr": 109,
+          "avg_watts": 130
+        },
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": {
+          "first_third_avg": 1.499,
+          "last_third_avg": 1.434,
+          "delta": -0.065,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 2102,
+          "total_secs": 2102,
+          "valid_pct": 100.0,
+          "artifact_rate_avg": 0.16,
+          "sufficient": true
+        }
+      }
     }
   ]
 }
