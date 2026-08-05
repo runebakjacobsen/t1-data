@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-08-04T23:44:09.349958",
+  "generated_at": "2026-08-05T01:09:20.167016",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i167695072",
-      "date": "2026-07-21",
-      "type": "Ride",
-      "name": "W30 - Outdoor Z2 Bike 90min (ankle-safe)",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 5147,
-          "avg_power": 166,
-          "max_power": 331,
-          "avg_hr": 118,
-          "max_hr": 131,
-          "avg_cadence": 81.89779,
-          "zone": 2,
-          "training_load": 59.08114,
-          "decoupling": -1.4446367
-        }
-      ]
-    },
     {
       "activity_id": "i168006452",
       "date": "2026-07-22",
