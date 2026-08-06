@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-08-05T23:41:34.413102",
+  "generated_at": "2026-08-06T01:07:27.735447",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i168006452",
-      "date": "2026-07-22",
-      "type": "VirtualRide",
-      "name": "MyWhoosh - W30 - Indoor Easy Bike 60min (ERG fixed watts)",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3615,
-          "avg_power": 150,
-          "max_power": 266,
-          "avg_hr": 109,
-          "max_hr": 125,
-          "avg_cadence": 90.37953,
-          "zone": 2,
-          "training_load": 36.435207,
-          "decoupling": 0.36249968
-        }
-      ]
-    },
     {
       "activity_id": "i168424188",
       "date": "2026-07-23",
