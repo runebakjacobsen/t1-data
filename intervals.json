@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T16:26:52.365380",
+  "generated_at": "2026-08-12T17:32:21.459157",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -787,6 +787,71 @@
           "total_secs": 4506,
           "valid_pct": 100.0,
           "artifact_rate_avg": 0.41,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i175206409",
+      "date": "2026-08-12",
+      "type": "Ride",
+      "name": "Silkeborg - P1 W33 - Easy Aerobic + DFA Capture #2 75min",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5003,
+          "avg_power": 156,
+          "max_power": 304,
+          "avg_hr": 122,
+          "max_hr": 139,
+          "avg_cadence": 85.02066,
+          "zone": 2,
+          "training_load": 49.96258,
+          "decoupling": 4.0938745,
+          "avg_dfa_a1": 1.3632653
+        }
+      ],
+      "dfa": {
+        "avg": 1.36,
+        "p25": 1.257,
+        "p50": 1.356,
+        "p75": 1.465,
+        "tiz_below_lt1": {
+          "secs": 4831,
+          "pct": 99.7,
+          "avg_hr": 122,
+          "avg_watts": 157
+        },
+        "tiz_lt1_transition": {
+          "secs": 16,
+          "pct": 0.3,
+          "avg_hr": 124,
+          "avg_watts": 162
+        },
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": {
+          "first_third_avg": 1.315,
+          "last_third_avg": 1.456,
+          "delta": 0.141,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 105,
+          "avg_hr": 125,
+          "avg_watts": 172
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 4847,
+          "total_secs": 4937,
+          "valid_pct": 98.2,
+          "artifact_rate_avg": 0.37,
           "sufficient": true
         }
       }
