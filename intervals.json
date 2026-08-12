@@ -1,108 +1,10 @@
 {
-  "generated_at": "2026-08-11T23:49:06.013864",
+  "generated_at": "2026-08-12T02:26:24.860854",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i170179947",
-      "date": "2026-07-28",
-      "type": "VirtualRide",
-      "name": "MyWhoosh - W31 - Indoor Threshold Development 3x10 (MyWhoosh ERG)",
-      "interval_summary": [
-        "3x 9m55s 250w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 905,
-          "avg_power": 155,
-          "max_power": 243,
-          "avg_hr": 116,
-          "max_hr": 130,
-          "avg_cadence": 90.16243,
-          "zone": 2,
-          "training_load": 9.975131,
-          "decoupling": -16.089045
-        },
-        {
-          "type": "WORK",
-          "label": "595s@250w98rpm",
-          "duration_secs": 597,
-          "avg_power": 249,
-          "max_power": 265,
-          "avg_hr": 145,
-          "max_hr": 153,
-          "avg_cadence": 98.39028,
-          "zone": 4,
-          "training_load": 15.9368725,
-          "decoupling": 5.475015
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 306,
-          "avg_power": 122,
-          "max_power": 232,
-          "avg_hr": 123,
-          "max_hr": 153,
-          "avg_cadence": 70.04575,
-          "zone": 1,
-          "training_load": 3.0040379,
-          "decoupling": -20.95229
-        },
-        {
-          "type": "WORK",
-          "label": "595s@250w98rpm",
-          "duration_secs": 593,
-          "avg_power": 250,
-          "max_power": 266,
-          "avg_hr": 149,
-          "max_hr": 158,
-          "avg_cadence": 98.20911,
-          "zone": 4,
-          "training_load": 15.830092,
-          "decoupling": 7.8258286
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 304,
-          "avg_power": 154,
-          "max_power": 249,
-          "avg_hr": 131,
-          "max_hr": 157,
-          "avg_cadence": 93.40131,
-          "zone": 2,
-          "training_load": 3.4350548,
-          "decoupling": -11.799095
-        },
-        {
-          "type": "WORK",
-          "label": "595s@250w98rpm",
-          "duration_secs": 596,
-          "avg_power": 250,
-          "max_power": 271,
-          "avg_hr": 153,
-          "max_hr": 161,
-          "avg_cadence": 97.95134,
-          "zone": 4,
-          "training_load": 15.910177,
-          "decoupling": 5.4697495
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1213,
-          "avg_power": 154,
-          "max_power": 235,
-          "avg_hr": 129,
-          "max_hr": 158,
-          "avg_cadence": 83.34377,
-          "zone": 2,
-          "training_load": 13.537629,
-          "decoupling": 8.720111
-        }
-      ]
-    },
     {
       "activity_id": "i170879399",
       "date": "2026-07-30",
