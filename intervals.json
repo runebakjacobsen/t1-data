@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T17:39:59.753008",
+  "generated_at": "2026-08-14T18:34:47.109644",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -831,6 +831,164 @@
           "total_secs": 4937,
           "valid_pct": 98.2,
           "artifact_rate_avg": 0.37,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i175860201",
+      "date": "2026-08-14",
+      "type": "Ride",
+      "name": "P1 W33 HARD - Threshold 3x12 75min",
+      "interval_summary": [
+        "3x 11m50s 256w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 954,
+          "avg_power": 163,
+          "max_power": 286,
+          "avg_hr": 122,
+          "max_hr": 137,
+          "avg_cadence": 84.56285,
+          "zone": 2,
+          "training_load": 9.928444,
+          "decoupling": -2.816815,
+          "avg_dfa_a1": 1.4949657
+        },
+        {
+          "type": "WORK",
+          "label": "710s@256w96rpm",
+          "duration_secs": 720,
+          "avg_power": 256,
+          "max_power": 376,
+          "avg_hr": 157,
+          "max_hr": 165,
+          "avg_cadence": 97.10555,
+          "zone": 4,
+          "training_load": 18.664577,
+          "decoupling": 5.557458,
+          "avg_dfa_a1": 0.8671483
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 324,
+          "avg_power": 122,
+          "max_power": 388,
+          "avg_hr": 127,
+          "max_hr": 165,
+          "avg_cadence": 83.78086,
+          "zone": 1,
+          "training_load": 2.6207333,
+          "decoupling": -26.279297,
+          "avg_dfa_a1": 1.2585628
+        },
+        {
+          "type": "WORK",
+          "label": "710s@256w96rpm",
+          "duration_secs": 694,
+          "avg_power": 258,
+          "max_power": 365,
+          "avg_hr": 162,
+          "max_hr": 169,
+          "avg_cadence": 98.12824,
+          "zone": 4,
+          "training_load": 18.27278,
+          "decoupling": 7.4962244,
+          "avg_dfa_a1": 0.7208093
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 304,
+          "avg_power": 92,
+          "max_power": 291,
+          "avg_hr": 126,
+          "max_hr": 167,
+          "avg_cadence": 69.47369,
+          "zone": 1,
+          "training_load": 1.8192382,
+          "decoupling": -35.415173,
+          "avg_dfa_a1": 1.2694626
+        },
+        {
+          "type": "WORK",
+          "label": "710s@256w96rpm",
+          "duration_secs": 716,
+          "avg_power": 254,
+          "max_power": 383,
+          "avg_hr": 162,
+          "max_hr": 172,
+          "avg_cadence": 93.026535,
+          "zone": 4,
+          "training_load": 18.416162,
+          "decoupling": 6.558223,
+          "avg_dfa_a1": 0.8180457
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1000,
+          "avg_power": 141,
+          "max_power": 344,
+          "avg_hr": 126,
+          "max_hr": 172,
+          "avg_cadence": 77.4298,
+          "zone": 1,
+          "training_load": 8.031727,
+          "decoupling": -15.463535,
+          "avg_dfa_a1": 1.2815417
+        }
+      ],
+      "dfa": {
+        "avg": 1.087,
+        "p25": 0.671,
+        "p50": 1.239,
+        "p75": 1.454,
+        "tiz_below_lt1": {
+          "secs": 2556,
+          "pct": 57.9,
+          "avg_hr": 129,
+          "avg_watts": 166
+        },
+        "tiz_lt1_transition": {
+          "secs": 426,
+          "pct": 9.7,
+          "avg_hr": 158,
+          "avg_watts": 233
+        },
+        "tiz_transition_lt2": {
+          "secs": 1149,
+          "pct": 26.0,
+          "avg_hr": 164,
+          "avg_watts": 241
+        },
+        "tiz_above_lt2": {
+          "secs": 280,
+          "pct": 6.3,
+          "avg_hr": 167,
+          "avg_watts": 247
+        },
+        "drift": {
+          "first_third_avg": 1.185,
+          "last_third_avg": 1.034,
+          "delta": -0.151,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 105,
+          "avg_hr": 150,
+          "avg_watts": 201
+        },
+        "lt2_crossing": {
+          "secs_in_band": 308,
+          "avg_hr": 167,
+          "avg_watts": 241
+        },
+        "quality": {
+          "valid_secs": 4411,
+          "total_secs": 4583,
+          "valid_pct": 96.2,
+          "artifact_rate_avg": 0.43,
           "sufficient": true
         }
       }
