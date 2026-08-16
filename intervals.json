@@ -1,49 +1,10 @@
 {
-  "generated_at": "2026-08-15T23:50:47.249716",
+  "generated_at": "2026-08-16T01:44:18.941971",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i171461434",
-      "date": "2026-08-01",
-      "type": "Run",
-      "name": "Jammerbugt Running",
-      "interval_summary": [
-        "2x 6m33s 128bpm",
-        "1x 2m13s 134bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "393s@128bpm80rpm",
-          "duration_secs": 401,
-          "avg_hr": 124,
-          "max_hr": 136,
-          "avg_cadence": 79.2412,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "393s@128bpm80rpm",
-          "duration_secs": 385,
-          "avg_hr": 131,
-          "max_hr": 136,
-          "avg_cadence": 80.48831,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "133s@134bpm79rpm",
-          "duration_secs": 133,
-          "avg_hr": 134,
-          "max_hr": 139,
-          "avg_cadence": 79.09775,
-          "zone": 2
-        }
-      ]
-    },
     {
       "activity_id": "i171688929",
       "date": "2026-08-02",
