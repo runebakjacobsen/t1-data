@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T18:04:14.782563",
+  "generated_at": "2026-08-20T19:01:10.347046",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -977,6 +977,66 @@
           "total_secs": 3602,
           "valid_pct": 100.0,
           "artifact_rate_avg": 0.43,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i178048627",
+      "date": "2026-08-20",
+      "type": "VirtualRide",
+      "name": "P1 W34 - Garmin Indoor Z2 75min",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4521,
+          "avg_power": 163,
+          "max_power": 214,
+          "avg_hr": 120,
+          "max_hr": 132,
+          "avg_cadence": 93.18674,
+          "zone": 2,
+          "training_load": 52.889206,
+          "decoupling": 1.7937343,
+          "avg_dfa_a1": 1.6822486
+        }
+      ],
+      "dfa": {
+        "avg": 1.682,
+        "p25": 1.682,
+        "p50": 1.682,
+        "p75": 1.682,
+        "tiz_below_lt1": {
+          "secs": 4502,
+          "pct": 100.0,
+          "avg_hr": 119,
+          "avg_watts": 163
+        },
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": {
+          "first_third_avg": 1.682,
+          "last_third_avg": 1.682,
+          "delta": 0.0,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 4502,
+          "total_secs": 4502,
+          "valid_pct": 100.0,
+          "artifact_rate_avg": 0.0,
           "sufficient": true
         }
       }
