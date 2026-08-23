@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T13:38:38.449076",
+  "generated_at": "2026-08-23T14:01:20.387650",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1156,6 +1156,81 @@
           "total_secs": 2763,
           "valid_pct": 90.9,
           "artifact_rate_avg": 0.55,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i178909347",
+      "date": "2026-08-23",
+      "type": "Ride",
+      "name": "P1 W34 - Long Aerobic Endurance 3h",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 11475,
+          "avg_power": 171,
+          "max_power": 371,
+          "avg_hr": 124,
+          "max_hr": 137,
+          "avg_cadence": 84.66523,
+          "zone": 2,
+          "training_load": 129.0637,
+          "decoupling": 2.0946488,
+          "avg_dfa_a1": 1.3539801
+        }
+      ],
+      "dfa": {
+        "avg": 1.363,
+        "p25": 1.279,
+        "p50": 1.366,
+        "p75": 1.46,
+        "tiz_below_lt1": {
+          "secs": 10496,
+          "pct": 98.7,
+          "avg_hr": 125,
+          "avg_watts": 172
+        },
+        "tiz_lt1_transition": {
+          "secs": 137,
+          "pct": 1.3,
+          "avg_hr": 127,
+          "avg_watts": 171
+        },
+        "tiz_transition_lt2": {
+          "secs": 1,
+          "pct": 0.0,
+          "avg_hr": 116,
+          "avg_watts": 0
+        },
+        "tiz_above_lt2": {
+          "secs": 1,
+          "pct": 0.0,
+          "avg_hr": 116,
+          "avg_watts": 0
+        },
+        "drift": {
+          "first_third_avg": 1.325,
+          "last_third_avg": 1.387,
+          "delta": 0.062,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 260,
+          "avg_hr": 127,
+          "avg_watts": 167
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 10635,
+          "total_secs": 10900,
+          "valid_pct": 97.6,
+          "artifact_rate_avg": 0.38,
           "sufficient": true
         }
       }
