@@ -1,75 +1,10 @@
 {
-  "generated_at": "2026-08-23T23:58:34.385648",
+  "generated_at": "2026-08-24T01:52:26.517424",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i174004780",
-      "date": "2026-08-09",
-      "type": "Ride",
-      "name": "Build W32 - Endurance 105min",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 7606,
-          "avg_power": 161,
-          "max_power": 314,
-          "avg_hr": 116,
-          "max_hr": 129,
-          "avg_cadence": 83.991974,
-          "zone": 2,
-          "training_load": 75.389984,
-          "decoupling": -5.0276,
-          "avg_dfa_a1": 1.4204152
-        }
-      ],
-      "dfa": {
-        "avg": 1.431,
-        "p25": 1.337,
-        "p50": 1.451,
-        "p75": 1.536,
-        "tiz_below_lt1": {
-          "secs": 6584,
-          "pct": 99.1,
-          "avg_hr": 117,
-          "avg_watts": 162
-        },
-        "tiz_lt1_transition": {
-          "secs": 60,
-          "pct": 0.9,
-          "avg_hr": 123,
-          "avg_watts": 173
-        },
-        "tiz_transition_lt2": null,
-        "tiz_above_lt2": null,
-        "drift": {
-          "first_third_avg": 1.394,
-          "last_third_avg": 1.453,
-          "delta": 0.059,
-          "interpretable": true
-        },
-        "lt1_crossing": {
-          "secs_in_band": 104,
-          "avg_hr": 121,
-          "avg_watts": 148
-        },
-        "lt2_crossing": {
-          "secs_in_band": 0,
-          "avg_hr": null,
-          "avg_watts": null
-        },
-        "quality": {
-          "valid_secs": 6644,
-          "total_secs": 6854,
-          "valid_pct": 96.9,
-          "artifact_rate_avg": 0.63,
-          "sufficient": true
-        }
-      }
-    },
     {
       "activity_id": "i174860241",
       "date": "2026-08-11",
