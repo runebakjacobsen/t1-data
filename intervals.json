@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T03:20:17.900269",
+  "generated_at": "2026-08-29T10:21:49.877962",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1250,6 +1250,151 @@
           "total_secs": 4504,
           "valid_pct": 100.0,
           "artifact_rate_avg": 0.17,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i180934568",
+      "date": "2026-08-29",
+      "type": "Run",
+      "name": "Silkeborg Running",
+      "interval_summary": [
+        "7x 6m19s 127bpm",
+        "1x 83s 130bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "379s@127bpm78rpm",
+          "duration_secs": 377,
+          "avg_hr": 125,
+          "max_hr": 134,
+          "avg_cadence": 77.71618,
+          "zone": 1,
+          "avg_dfa_a1": 0.47668254
+        },
+        {
+          "type": "WORK",
+          "label": "379s@127bpm78rpm",
+          "duration_secs": 370,
+          "avg_hr": 129,
+          "max_hr": 135,
+          "avg_cadence": 77.91081,
+          "zone": 1,
+          "avg_dfa_a1": 0.60187835
+        },
+        {
+          "type": "WORK",
+          "label": "379s@127bpm78rpm",
+          "duration_secs": 379,
+          "avg_hr": 126,
+          "max_hr": 134,
+          "avg_cadence": 77.781006,
+          "zone": 1,
+          "avg_dfa_a1": 0.69473505
+        },
+        {
+          "type": "WORK",
+          "label": "379s@127bpm78rpm",
+          "duration_secs": 383,
+          "avg_hr": 126,
+          "max_hr": 131,
+          "avg_cadence": 77.73891,
+          "zone": 1,
+          "avg_dfa_a1": 0.61071765
+        },
+        {
+          "type": "WORK",
+          "label": "379s@127bpm78rpm",
+          "duration_secs": 385,
+          "avg_hr": 130,
+          "max_hr": 135,
+          "avg_cadence": 77.66234,
+          "zone": 1,
+          "avg_dfa_a1": 0.49552694
+        },
+        {
+          "type": "WORK",
+          "label": "379s@127bpm78rpm",
+          "duration_secs": 381,
+          "avg_hr": 127,
+          "max_hr": 133,
+          "avg_cadence": 77.84777,
+          "zone": 1,
+          "avg_dfa_a1": 0.60085267
+        },
+        {
+          "type": "WORK",
+          "label": "379s@127bpm78rpm",
+          "duration_secs": 381,
+          "avg_hr": 127,
+          "max_hr": 138,
+          "avg_cadence": 78.11286,
+          "zone": 1,
+          "avg_dfa_a1": 0.63989174
+        },
+        {
+          "type": "WORK",
+          "label": "83s@130bpm78rpm",
+          "duration_secs": 83,
+          "avg_hr": 130,
+          "max_hr": 133,
+          "avg_cadence": 78.156624,
+          "zone": 1,
+          "avg_dfa_a1": 0.64291215
+        }
+      ],
+      "dfa": {
+        "avg": 0.617,
+        "p25": 0.56,
+        "p50": 0.621,
+        "p75": 0.667,
+        "tiz_below_lt1": {
+          "secs": 31,
+          "pct": 1.2,
+          "avg_hr": 130,
+          "avg_watts": 320
+        },
+        "tiz_lt1_transition": {
+          "secs": 90,
+          "pct": 3.4,
+          "avg_hr": 125,
+          "avg_watts": 309
+        },
+        "tiz_transition_lt2": {
+          "secs": 2165,
+          "pct": 82.6,
+          "avg_hr": 128,
+          "avg_watts": 311
+        },
+        "tiz_above_lt2": {
+          "secs": 335,
+          "pct": 12.8,
+          "avg_hr": 130,
+          "avg_watts": 320
+        },
+        "drift": {
+          "first_third_avg": 0.651,
+          "last_third_avg": 0.622,
+          "delta": -0.029,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 5,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "lt2_crossing": {
+          "secs_in_band": 489,
+          "avg_hr": 129,
+          "avg_watts": 316
+        },
+        "quality": {
+          "valid_secs": 2621,
+          "total_secs": 2739,
+          "valid_pct": 95.7,
+          "artifact_rate_avg": 0.11,
           "sufficient": true
         }
       }
