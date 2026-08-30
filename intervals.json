@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T17:42:55.736961",
+  "generated_at": "2026-08-30T20:05:24.916381",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1241,6 +1241,71 @@
           "total_secs": 2739,
           "valid_pct": 95.7,
           "artifact_rate_avg": 0.11,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i181474322",
+      "date": "2026-08-30",
+      "type": "VirtualRide",
+      "name": "P1 W35 - FLEX Indoor Aerobic 90\u2013180min (3h ceiling)",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7233,
+          "avg_power": 168,
+          "max_power": 232,
+          "avg_hr": 124,
+          "max_hr": 137,
+          "avg_cadence": 91.43248,
+          "zone": 2,
+          "training_load": 89.814156,
+          "decoupling": -1.8521199,
+          "avg_dfa_a1": 1.2654289
+        }
+      ],
+      "dfa": {
+        "avg": 1.284,
+        "p25": 1.201,
+        "p50": 1.277,
+        "p75": 1.374,
+        "tiz_below_lt1": {
+          "secs": 6974,
+          "pct": 98.2,
+          "avg_hr": 125,
+          "avg_watts": 169
+        },
+        "tiz_lt1_transition": {
+          "secs": 128,
+          "pct": 1.8,
+          "avg_hr": 127,
+          "avg_watts": 170
+        },
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": {
+          "first_third_avg": 1.328,
+          "last_third_avg": 1.266,
+          "delta": -0.062,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 188,
+          "avg_hr": 126,
+          "avg_watts": 172
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 7102,
+          "total_secs": 7205,
+          "valid_pct": 98.6,
+          "artifact_rate_avg": 0.01,
           "sufficient": true
         }
       }
