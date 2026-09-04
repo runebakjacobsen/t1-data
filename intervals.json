@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T18:26:43.022664",
+  "generated_at": "2026-09-04T20:58:44.201823",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1213,6 +1213,66 @@
           "total_secs": 2702,
           "valid_pct": 100.0,
           "artifact_rate_avg": 0.03,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i183387935",
+      "date": "2026-09-04",
+      "type": "VirtualRide",
+      "name": "P1 W36 CONSOLIDATION - Garmin Indoor Aerobic 75min",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4534,
+          "avg_power": 148,
+          "max_power": 228,
+          "avg_hr": 119,
+          "max_hr": 130,
+          "avg_cadence": 86.08147,
+          "zone": 2,
+          "training_load": 43.651962,
+          "decoupling": -1.4417181,
+          "avg_dfa_a1": 1.5050745
+        }
+      ],
+      "dfa": {
+        "avg": 1.505,
+        "p25": 1.443,
+        "p50": 1.511,
+        "p75": 1.573,
+        "tiz_below_lt1": {
+          "secs": 4505,
+          "pct": 100.0,
+          "avg_hr": 119,
+          "avg_watts": 149
+        },
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": {
+          "first_third_avg": 1.537,
+          "last_third_avg": 1.476,
+          "delta": -0.061,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 4505,
+          "total_secs": 4505,
+          "valid_pct": 100.0,
+          "artifact_rate_avg": 0.21,
           "sufficient": true
         }
       }
