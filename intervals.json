@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T12:46:45.598977",
+  "generated_at": "2026-09-06T16:06:55.089185",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -975,6 +975,71 @@
           "total_secs": 4505,
           "valid_pct": 100.0,
           "artifact_rate_avg": 0.21,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i183915128",
+      "date": "2026-09-06",
+      "type": "Ride",
+      "name": "P1 W36 CONSOLIDATION - Long Aerobic Endurance 2h30",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 9487,
+          "avg_power": 175,
+          "max_power": 424,
+          "avg_hr": 127,
+          "max_hr": 141,
+          "avg_cadence": 87.312904,
+          "zone": 2,
+          "training_load": 113.43921,
+          "decoupling": 1.6962073,
+          "avg_dfa_a1": 1.3447222
+        }
+      ],
+      "dfa": {
+        "avg": 1.342,
+        "p25": 1.233,
+        "p50": 1.346,
+        "p75": 1.452,
+        "tiz_below_lt1": {
+          "secs": 8924,
+          "pct": 99.0,
+          "avg_hr": 128,
+          "avg_watts": 176
+        },
+        "tiz_lt1_transition": {
+          "secs": 91,
+          "pct": 1.0,
+          "avg_hr": 125,
+          "avg_watts": 175
+        },
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": {
+          "first_third_avg": 1.327,
+          "last_third_avg": 1.408,
+          "delta": 0.081,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 182,
+          "avg_hr": 125,
+          "avg_watts": 174
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 9015,
+          "total_secs": 9153,
+          "valid_pct": 98.5,
+          "artifact_rate_avg": 0.23,
           "sufficient": true
         }
       }
