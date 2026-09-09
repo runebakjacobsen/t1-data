@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T16:22:12.381212",
+  "generated_at": "2026-09-09T19:24:00.782728",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -857,6 +857,81 @@
           "sufficient": true
         }
       }
+    },
+    {
+      "activity_id": "i185008731",
+      "date": "2026-09-09",
+      "type": "Run",
+      "name": "P2 W37 HARZ PREP - Easy Run \u2014 Impact Maintenance 40min",
+      "interval_summary": [
+        "6x 6m25s 126bpm",
+        "1x 2m13s 123bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "385s@126bpm78rpm",
+          "duration_secs": 384,
+          "avg_hr": 126,
+          "max_hr": 137,
+          "avg_cadence": 78.239586,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "385s@126bpm78rpm",
+          "duration_secs": 378,
+          "avg_hr": 129,
+          "max_hr": 139,
+          "avg_cadence": 77.69312,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "385s@126bpm78rpm",
+          "duration_secs": 387,
+          "avg_hr": 125,
+          "max_hr": 134,
+          "avg_cadence": 77.55556,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "385s@126bpm78rpm",
+          "duration_secs": 392,
+          "avg_hr": 123,
+          "max_hr": 128,
+          "avg_cadence": 77.58673,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "385s@126bpm78rpm",
+          "duration_secs": 385,
+          "avg_hr": 125,
+          "max_hr": 134,
+          "avg_cadence": 77.67532,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "385s@126bpm78rpm",
+          "duration_secs": 382,
+          "avg_hr": 125,
+          "max_hr": 129,
+          "avg_cadence": 78.53141,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "133s@123bpm79rpm",
+          "duration_secs": 133,
+          "avg_hr": 123,
+          "max_hr": 128,
+          "avg_cadence": 79.4812,
+          "zone": 1
+        }
+      ]
     }
   ]
 }
