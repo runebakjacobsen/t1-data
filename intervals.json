@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T14:17:26.332074",
+  "generated_at": "2026-09-18T17:48:48.127984",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1224,6 +1224,151 @@
           "total_secs": 4024,
           "valid_pct": 98.2,
           "artifact_rate_avg": 0.58,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i187972165",
+      "date": "2026-09-18",
+      "type": "Run",
+      "name": "P2 W38 - Easy Run \u2014 Impact Maintenance 45min",
+      "interval_summary": [
+        "7x 6m23s 123bpm",
+        "1x 22s 122bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "383s@123bpm78rpm",
+          "duration_secs": 389,
+          "avg_hr": 122,
+          "max_hr": 132,
+          "avg_cadence": 76.03599,
+          "zone": 1,
+          "avg_dfa_a1": 0.41498327
+        },
+        {
+          "type": "WORK",
+          "label": "383s@123bpm78rpm",
+          "duration_secs": 378,
+          "avg_hr": 127,
+          "max_hr": 134,
+          "avg_cadence": 77.69312,
+          "zone": 1,
+          "avg_dfa_a1": 0.5223772
+        },
+        {
+          "type": "WORK",
+          "label": "383s@123bpm78rpm",
+          "duration_secs": 378,
+          "avg_hr": 125,
+          "max_hr": 134,
+          "avg_cadence": 77.54762,
+          "zone": 1,
+          "avg_dfa_a1": 0.48748487
+        },
+        {
+          "type": "WORK",
+          "label": "383s@123bpm78rpm",
+          "duration_secs": 386,
+          "avg_hr": 124,
+          "max_hr": 127,
+          "avg_cadence": 77.73834,
+          "zone": 1,
+          "avg_dfa_a1": 0.5176559
+        },
+        {
+          "type": "WORK",
+          "label": "383s@123bpm78rpm",
+          "duration_secs": 385,
+          "avg_hr": 123,
+          "max_hr": 128,
+          "avg_cadence": 77.89091,
+          "zone": 1,
+          "avg_dfa_a1": 0.5243422
+        },
+        {
+          "type": "WORK",
+          "label": "383s@123bpm78rpm",
+          "duration_secs": 383,
+          "avg_hr": 121,
+          "max_hr": 129,
+          "avg_cadence": 78.8799,
+          "zone": 1,
+          "avg_dfa_a1": 0.77519965
+        },
+        {
+          "type": "WORK",
+          "label": "383s@123bpm78rpm",
+          "duration_secs": 380,
+          "avg_hr": 121,
+          "max_hr": 130,
+          "avg_cadence": 79.142105,
+          "zone": 1,
+          "avg_dfa_a1": 0.60960245
+        },
+        {
+          "type": "WORK",
+          "label": "22s@122bpm80rpm",
+          "duration_secs": 22,
+          "avg_hr": 122,
+          "max_hr": 124,
+          "avg_cadence": 79.818184,
+          "zone": 1,
+          "avg_dfa_a1": 0.57135934
+        }
+      ],
+      "dfa": {
+        "avg": 0.579,
+        "p25": 0.482,
+        "p50": 0.547,
+        "p75": 0.628,
+        "tiz_below_lt1": {
+          "secs": 48,
+          "pct": 1.9,
+          "avg_hr": 125,
+          "avg_watts": 322
+        },
+        "tiz_lt1_transition": {
+          "secs": 194,
+          "pct": 7.6,
+          "avg_hr": 122,
+          "avg_watts": 294
+        },
+        "tiz_transition_lt2": {
+          "secs": 1466,
+          "pct": 57.1,
+          "avg_hr": 124,
+          "avg_watts": 310
+        },
+        "tiz_above_lt2": {
+          "secs": 859,
+          "pct": 33.5,
+          "avg_hr": 125,
+          "avg_watts": 315
+        },
+        "drift": {
+          "first_third_avg": 0.543,
+          "last_third_avg": 0.678,
+          "delta": 0.135,
+          "interpretable": false
+        },
+        "lt1_crossing": {
+          "secs_in_band": 58,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "lt2_crossing": {
+          "secs_in_band": 1050,
+          "avg_hr": 125,
+          "avg_watts": 311
+        },
+        "quality": {
+          "valid_secs": 2567,
+          "total_secs": 2701,
+          "valid_pct": 95.0,
+          "artifact_rate_avg": 0.17,
           "sufficient": true
         }
       }
