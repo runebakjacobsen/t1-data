@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T05:56:16.578406",
+  "generated_at": "2026-09-19T10:46:42.180301",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1309,6 +1309,137 @@
           "total_secs": 2701,
           "valid_pct": 95.0,
           "artifact_rate_avg": 0.17,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i188119262",
+      "date": "2026-09-19",
+      "type": "VirtualRide",
+      "name": "P2 W38 HARD 3/3 - Indoor ERG Sweet Spot 2x20 at 90% 70min",
+      "interval_summary": [
+        "2x 19m59s 228w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 898,
+          "avg_power": 155,
+          "max_power": 208,
+          "avg_hr": 132,
+          "max_hr": 145,
+          "avg_cadence": 94.2049,
+          "zone": 2,
+          "training_load": 9.897975,
+          "decoupling": -17.717728,
+          "avg_dfa_a1": 0.8831843
+        },
+        {
+          "type": "WORK",
+          "label": "1199s@228w100rpm",
+          "duration_secs": 1202,
+          "avg_power": 227,
+          "max_power": 268,
+          "avg_hr": 151,
+          "max_hr": 158,
+          "avg_cadence": 100.601494,
+          "zone": 3,
+          "training_load": 26.903217,
+          "decoupling": 1.9194608,
+          "avg_dfa_a1": 0.74789053
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 305,
+          "avg_power": 128,
+          "max_power": 230,
+          "avg_hr": 130,
+          "max_hr": 155,
+          "avg_cadence": 96.065575,
+          "zone": 1,
+          "training_load": 2.4647396,
+          "decoupling": -9.942327,
+          "avg_dfa_a1": 0.8488071
+        },
+        {
+          "type": "WORK",
+          "label": "1199s@228w100rpm",
+          "duration_secs": 1196,
+          "avg_power": 228,
+          "max_power": 270,
+          "avg_hr": 153,
+          "max_hr": 160,
+          "avg_cadence": 100.147156,
+          "zone": 3,
+          "training_load": 26.534626,
+          "decoupling": 3.3661208,
+          "avg_dfa_a1": 0.7192759
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 601,
+          "avg_power": 138,
+          "max_power": 205,
+          "avg_hr": 131,
+          "max_hr": 158,
+          "avg_cadence": 88.42097,
+          "zone": 1,
+          "training_load": 5.2914734,
+          "decoupling": -5.65213,
+          "avg_dfa_a1": 1.0767745
+        }
+      ],
+      "dfa": {
+        "avg": 0.845,
+        "p25": 0.671,
+        "p50": 0.786,
+        "p75": 1.015,
+        "tiz_below_lt1": {
+          "secs": 1060,
+          "pct": 25.9,
+          "avg_hr": 132,
+          "avg_watts": 162
+        },
+        "tiz_lt1_transition": {
+          "secs": 1306,
+          "pct": 31.9,
+          "avg_hr": 143,
+          "avg_watts": 189
+        },
+        "tiz_transition_lt2": {
+          "secs": 1689,
+          "pct": 41.3,
+          "avg_hr": 152,
+          "avg_watts": 218
+        },
+        "tiz_above_lt2": {
+          "secs": 38,
+          "pct": 0.9,
+          "avg_hr": 156,
+          "avg_watts": 197
+        },
+        "drift": {
+          "first_third_avg": 0.929,
+          "last_third_avg": 0.843,
+          "delta": -0.086,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 353,
+          "avg_hr": 134,
+          "avg_watts": 160
+        },
+        "lt2_crossing": {
+          "secs_in_band": 146,
+          "avg_hr": 153,
+          "avg_watts": 200
+        },
+        "quality": {
+          "valid_secs": 4093,
+          "total_secs": 4202,
+          "valid_pct": 97.4,
+          "artifact_rate_avg": 0.13,
           "sufficient": true
         }
       }
