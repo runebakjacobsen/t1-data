@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T13:43:18.176174",
+  "generated_at": "2026-09-20T17:02:05.955108",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1440,6 +1440,76 @@
           "total_secs": 4202,
           "valid_pct": 97.4,
           "artifact_rate_avg": 0.13,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i188540243",
+      "date": "2026-09-20",
+      "type": "VirtualRide",
+      "name": "P2 W38 - Indoor ERG Long Aerobic Durability 3h00 Progressive Z2",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7725,
+          "avg_power": 164,
+          "max_power": 258,
+          "avg_hr": 122,
+          "max_hr": 132,
+          "avg_cadence": 90.00915,
+          "zone": 2,
+          "training_load": 89.73113,
+          "decoupling": -6.235605,
+          "avg_dfa_a1": 1.2120568
+        }
+      ],
+      "dfa": {
+        "avg": 1.212,
+        "p25": 1.094,
+        "p50": 1.194,
+        "p75": 1.315,
+        "tiz_below_lt1": {
+          "secs": 6911,
+          "pct": 90.3,
+          "avg_hr": 123,
+          "avg_watts": 164
+        },
+        "tiz_lt1_transition": {
+          "secs": 742,
+          "pct": 9.7,
+          "avg_hr": 123,
+          "avg_watts": 164
+        },
+        "tiz_transition_lt2": {
+          "secs": 1,
+          "pct": 0.0,
+          "avg_hr": 123,
+          "avg_watts": 180
+        },
+        "tiz_above_lt2": null,
+        "drift": {
+          "first_third_avg": 1.208,
+          "last_third_avg": 1.265,
+          "delta": 0.057,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 957,
+          "avg_hr": 123,
+          "avg_watts": 165
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 7654,
+          "total_secs": 7654,
+          "valid_pct": 100.0,
+          "artifact_rate_avg": 0.11,
           "sufficient": true
         }
       }
