@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T15:29:11.261621",
+  "generated_at": "2026-09-25T19:29:53.777771",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1587,6 +1587,66 @@
           "total_secs": 4219,
           "valid_pct": 98.6,
           "artifact_rate_avg": 0.56,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i190347700",
+      "date": "2026-09-25",
+      "type": "VirtualRide",
+      "name": "P2 W39 - Indoor ERG Easy Aerobic Substitution 45min",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2703,
+          "avg_power": 145,
+          "max_power": 192,
+          "avg_hr": 113,
+          "max_hr": 122,
+          "avg_cadence": 91.85571,
+          "zone": 2,
+          "training_load": 24.807432,
+          "decoupling": -0.91404176,
+          "avg_dfa_a1": 1.3773575
+        }
+      ],
+      "dfa": {
+        "avg": 1.372,
+        "p25": 1.261,
+        "p50": 1.365,
+        "p75": 1.475,
+        "tiz_below_lt1": {
+          "secs": 2548,
+          "pct": 100.0,
+          "avg_hr": 114,
+          "avg_watts": 146
+        },
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": {
+          "first_third_avg": 1.341,
+          "last_third_avg": 1.472,
+          "delta": 0.131,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 6,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 2548,
+          "total_secs": 2703,
+          "valid_pct": 94.3,
+          "artifact_rate_avg": 0.39,
           "sufficient": true
         }
       }
