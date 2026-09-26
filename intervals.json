@@ -1,58 +1,10 @@
 {
-  "generated_at": "2026-09-25T22:45:41.207643",
+  "generated_at": "2026-09-26T01:22:07.858073",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i185640765",
-      "date": "2026-09-11",
-      "type": "Ride",
-      "name": "P2 W37 HARZ - Optional Sonnenberg Leg-Opener 35\u201345min",
-      "interval_summary": [
-        "1x 2m26s 274w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3517,
-          "avg_power": 147,
-          "max_power": 349,
-          "avg_hr": 123,
-          "max_hr": 161,
-          "avg_cadence": 73.78317,
-          "zone": 2,
-          "training_load": 41.055725,
-          "decoupling": -12.032827
-        },
-        {
-          "type": "WORK",
-          "label": "146s@274w78rpm",
-          "duration_secs": 146,
-          "avg_power": 274,
-          "max_power": 334,
-          "avg_hr": 163,
-          "max_hr": 166,
-          "avg_cadence": 78.15753,
-          "zone": 4,
-          "training_load": 4.36741,
-          "decoupling": 6.934413
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 101,
-          "avg_power": 113,
-          "max_power": 243,
-          "avg_hr": 149,
-          "max_hr": 166,
-          "avg_cadence": 75.61386,
-          "zone": 1,
-          "training_load": 1.2944108,
-          "decoupling": 21.419004
-        }
-      ]
-    },
     {
       "activity_id": "i185909861",
       "date": "2026-09-12",
