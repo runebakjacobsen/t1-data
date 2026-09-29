@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T13:59:09.555023",
+  "generated_at": "2026-09-29T19:19:31.610213",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1309,6 +1309,153 @@
           "total_secs": 10868,
           "valid_pct": 97.4,
           "artifact_rate_avg": 0.53,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i191629040",
+      "date": "2026-09-29",
+      "type": "VirtualRide",
+      "name": "P2 W40 CONSOLIDATION - Indoor ERG Threshold Touch 2x12 at 102% 70min",
+      "interval_summary": [
+        "1x 5m20s 201w",
+        "1x 11m56s 258w",
+        "1x 96s 257w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 584,
+          "avg_power": 156,
+          "max_power": 203,
+          "avg_hr": 118,
+          "max_hr": 129,
+          "avg_cadence": 87.50604,
+          "zone": 2,
+          "training_load": 6.2770715,
+          "decoupling": -13.246715,
+          "avg_dfa_a1": 1.1484681
+        },
+        {
+          "type": "WORK",
+          "label": "320s@201w97rpm",
+          "duration_secs": 320,
+          "avg_power": 201,
+          "max_power": 263,
+          "avg_hr": 134,
+          "max_hr": 138,
+          "avg_cadence": 96.7625,
+          "zone": 3,
+          "training_load": 5.566371,
+          "decoupling": 0.3060579,
+          "avg_dfa_a1": 1.0109059
+        },
+        {
+          "type": "WORK",
+          "label": "716s@258w97rpm",
+          "duration_secs": 716,
+          "avg_power": 258,
+          "max_power": 292,
+          "avg_hr": 150,
+          "max_hr": 158,
+          "avg_cadence": 96.86313,
+          "zone": 4,
+          "training_load": 20.520243,
+          "decoupling": 3.691186,
+          "avg_dfa_a1": 0.7149735
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 305,
+          "avg_power": 129,
+          "max_power": 266,
+          "avg_hr": 122,
+          "max_hr": 152,
+          "avg_cadence": 92.75082,
+          "zone": 1,
+          "training_load": 2.7230453,
+          "decoupling": -12.371196,
+          "avg_dfa_a1": 0.9261295
+        },
+        {
+          "type": "WORK",
+          "label": "96s@257w100rpm",
+          "duration_secs": 96,
+          "avg_power": 257,
+          "max_power": 274,
+          "avg_hr": 135,
+          "max_hr": 147,
+          "avg_cadence": 100.385414,
+          "zone": 4,
+          "training_load": 2.5421705,
+          "decoupling": 11.560813,
+          "avg_dfa_a1": 1.2934166
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2181,
+          "avg_power": 153,
+          "max_power": 243,
+          "avg_hr": 122,
+          "max_hr": 146,
+          "avg_cadence": 86.28473,
+          "zone": 2,
+          "training_load": 22.852564,
+          "decoupling": 7.991715,
+          "avg_dfa_a1": 1.2254716
+        }
+      ],
+      "dfa": {
+        "avg": 1.114,
+        "p25": 0.927,
+        "p50": 1.192,
+        "p75": 1.31,
+        "tiz_below_lt1": {
+          "secs": 2957,
+          "pct": 71.8,
+          "avg_hr": 121,
+          "avg_watts": 159
+        },
+        "tiz_lt1_transition": {
+          "secs": 548,
+          "pct": 13.3,
+          "avg_hr": 139,
+          "avg_watts": 218
+        },
+        "tiz_transition_lt2": {
+          "secs": 609,
+          "pct": 14.8,
+          "avg_hr": 146,
+          "avg_watts": 226
+        },
+        "tiz_above_lt2": {
+          "secs": 3,
+          "pct": 0.1,
+          "avg_hr": 152,
+          "avg_watts": 250
+        },
+        "drift": {
+          "first_third_avg": 1.021,
+          "last_third_avg": 1.27,
+          "delta": 0.249,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 207,
+          "avg_hr": 129,
+          "avg_watts": 179
+        },
+        "lt2_crossing": {
+          "secs_in_band": 89,
+          "avg_hr": 145,
+          "avg_watts": 218
+        },
+        "quality": {
+          "valid_secs": 4117,
+          "total_secs": 4201,
+          "valid_pct": 98.0,
+          "artifact_rate_avg": 0.06,
           "sufficient": true
         }
       }
