@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T08:29:11.776593",
+  "generated_at": "2026-10-03T13:39:48.798621",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1087,6 +1087,71 @@
           "total_secs": 1986,
           "valid_pct": 93.7,
           "artifact_rate_avg": 0.26,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i192951408",
+      "date": "2026-10-03",
+      "type": "Ride",
+      "name": "P2 W40 CONSOLIDATION - Outdoor Aerobic Maintenance 60min",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3806,
+          "avg_power": 167,
+          "max_power": 286,
+          "avg_hr": 117,
+          "max_hr": 128,
+          "avg_cadence": 87.72503,
+          "zone": 2,
+          "training_load": 40.72719,
+          "decoupling": -1.9114455,
+          "avg_dfa_a1": 1.3225021
+        }
+      ],
+      "dfa": {
+        "avg": 1.321,
+        "p25": 1.251,
+        "p50": 1.338,
+        "p75": 1.402,
+        "tiz_below_lt1": {
+          "secs": 3529,
+          "pct": 99.6,
+          "avg_hr": 117,
+          "avg_watts": 167
+        },
+        "tiz_lt1_transition": {
+          "secs": 14,
+          "pct": 0.4,
+          "avg_hr": 121,
+          "avg_watts": 145
+        },
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": {
+          "first_third_avg": 1.264,
+          "last_third_avg": 1.346,
+          "delta": 0.082,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 85,
+          "avg_hr": 123,
+          "avg_watts": 173
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 3543,
+          "total_secs": 3604,
+          "valid_pct": 98.3,
+          "artifact_rate_avg": 0.49,
           "sufficient": true
         }
       }
