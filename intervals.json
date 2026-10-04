@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T08:50:51.837167",
+  "generated_at": "2026-10-04T14:43:15.471847",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1021,6 +1021,71 @@
           "total_secs": 3604,
           "valid_pct": 98.3,
           "artifact_rate_avg": 0.49,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i193379677",
+      "date": "2026-10-04",
+      "type": "Ride",
+      "name": "P2 W40 CONSOLIDATION - Long Aerobic Ride 2h30",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 9477,
+          "avg_power": 177,
+          "max_power": 331,
+          "avg_hr": 125,
+          "max_hr": 138,
+          "avg_cadence": 88.39884,
+          "zone": 2,
+          "training_load": 117.08651,
+          "decoupling": 0.41042876,
+          "avg_dfa_a1": 1.3653872
+        }
+      ],
+      "dfa": {
+        "avg": 1.364,
+        "p25": 1.264,
+        "p50": 1.364,
+        "p75": 1.454,
+        "tiz_below_lt1": {
+          "secs": 8958,
+          "pct": 99.9,
+          "avg_hr": 126,
+          "avg_watts": 178
+        },
+        "tiz_lt1_transition": {
+          "secs": 5,
+          "pct": 0.1,
+          "avg_hr": 126,
+          "avg_watts": 184
+        },
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": {
+          "first_third_avg": 1.283,
+          "last_third_avg": 1.44,
+          "delta": 0.157,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 82,
+          "avg_hr": 129,
+          "avg_watts": 188
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 8963,
+          "total_secs": 9134,
+          "valid_pct": 98.1,
+          "artifact_rate_avg": 0.36,
           "sufficient": true
         }
       }
