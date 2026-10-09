@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T12:06:41.285213",
+  "generated_at": "2026-10-09T18:22:51.881351",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1642,6 +1642,151 @@
           "total_secs": 3602,
           "valid_pct": 97.5,
           "artifact_rate_avg": 0.64,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i195528048",
+      "date": "2026-10-09",
+      "type": "Run",
+      "name": "P2 W41 - Easy Run \u2014 Impact Maintenance 45min",
+      "interval_summary": [
+        "7x 6m29s 124bpm",
+        "1x 40s 125bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "389s@124bpm78rpm",
+          "duration_secs": 396,
+          "avg_hr": 124,
+          "max_hr": 134,
+          "avg_cadence": 77.06061,
+          "zone": 1,
+          "avg_dfa_a1": 0.4649635
+        },
+        {
+          "type": "WORK",
+          "label": "389s@124bpm78rpm",
+          "duration_secs": 387,
+          "avg_hr": 127,
+          "max_hr": 132,
+          "avg_cadence": 77.93023,
+          "zone": 1,
+          "avg_dfa_a1": 0.4718142
+        },
+        {
+          "type": "WORK",
+          "label": "389s@124bpm78rpm",
+          "duration_secs": 389,
+          "avg_hr": 124,
+          "max_hr": 133,
+          "avg_cadence": 77.80463,
+          "zone": 1,
+          "avg_dfa_a1": 0.4915857
+        },
+        {
+          "type": "WORK",
+          "label": "389s@124bpm78rpm",
+          "duration_secs": 389,
+          "avg_hr": 124,
+          "max_hr": 129,
+          "avg_cadence": 77.85604,
+          "zone": 1,
+          "avg_dfa_a1": 0.50163704
+        },
+        {
+          "type": "WORK",
+          "label": "389s@124bpm78rpm",
+          "duration_secs": 390,
+          "avg_hr": 125,
+          "max_hr": 132,
+          "avg_cadence": 79.40513,
+          "zone": 1,
+          "avg_dfa_a1": 0.4841023
+        },
+        {
+          "type": "WORK",
+          "label": "389s@124bpm78rpm",
+          "duration_secs": 378,
+          "avg_hr": 122,
+          "max_hr": 129,
+          "avg_cadence": 79.27778,
+          "zone": 1,
+          "avg_dfa_a1": 0.4456188
+        },
+        {
+          "type": "WORK",
+          "label": "389s@124bpm78rpm",
+          "duration_secs": 397,
+          "avg_hr": 125,
+          "max_hr": 134,
+          "avg_cadence": 79.534004,
+          "zone": 1,
+          "avg_dfa_a1": 0.4491133
+        },
+        {
+          "type": "WORK",
+          "label": "40s@125bpm79rpm",
+          "duration_secs": 40,
+          "avg_hr": 125,
+          "max_hr": 127,
+          "avg_cadence": 78.7,
+          "zone": 1,
+          "avg_dfa_a1": 0.55933905
+        }
+      ],
+      "dfa": {
+        "avg": 0.495,
+        "p25": 0.427,
+        "p50": 0.48,
+        "p75": 0.549,
+        "tiz_below_lt1": {
+          "secs": 32,
+          "pct": 1.2,
+          "avg_hr": 129,
+          "avg_watts": 330
+        },
+        "tiz_lt1_transition": {
+          "secs": 11,
+          "pct": 0.4,
+          "avg_hr": 130,
+          "avg_watts": 330
+        },
+        "tiz_transition_lt2": {
+          "secs": 1096,
+          "pct": 41.3,
+          "avg_hr": 125,
+          "avg_watts": 301
+        },
+        "tiz_above_lt2": {
+          "secs": 1512,
+          "pct": 57.0,
+          "avg_hr": 125,
+          "avg_watts": 299
+        },
+        "drift": {
+          "first_third_avg": 0.52,
+          "last_third_avg": 0.457,
+          "delta": -0.063,
+          "interpretable": false
+        },
+        "lt1_crossing": {
+          "secs_in_band": 6,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "lt2_crossing": {
+          "secs_in_band": 1048,
+          "avg_hr": 126,
+          "avg_watts": 300
+        },
+        "quality": {
+          "valid_secs": 2651,
+          "total_secs": 2766,
+          "valid_pct": 95.8,
+          "artifact_rate_avg": 0.18,
           "sufficient": true
         }
       }
