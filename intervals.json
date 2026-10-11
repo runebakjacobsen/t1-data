@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:44:25.130923",
+  "generated_at": "2026-10-11T14:23:56.123009",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1742,6 +1742,71 @@
           "total_secs": 5102,
           "valid_pct": 100.0,
           "artifact_rate_avg": 0.17,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i196063537",
+      "date": "2026-10-11",
+      "type": "Ride",
+      "name": "P2 W41 - Long Aerobic Durability 3h00",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 11340,
+          "avg_power": 173,
+          "max_power": 324,
+          "avg_hr": 124,
+          "max_hr": 137,
+          "avg_cadence": 86.08361,
+          "zone": 2,
+          "training_load": 134.1791,
+          "decoupling": -3.452948,
+          "avg_dfa_a1": 1.2639744
+        }
+      ],
+      "dfa": {
+        "avg": 1.262,
+        "p25": 1.111,
+        "p50": 1.225,
+        "p75": 1.409,
+        "tiz_below_lt1": {
+          "secs": 10067,
+          "pct": 92.7,
+          "avg_hr": 124,
+          "avg_watts": 174
+        },
+        "tiz_lt1_transition": {
+          "secs": 792,
+          "pct": 7.3,
+          "avg_hr": 125,
+          "avg_watts": 172
+        },
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": {
+          "first_third_avg": 1.195,
+          "last_third_avg": 1.381,
+          "delta": 0.186,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 1186,
+          "avg_hr": 124,
+          "avg_watts": 172
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 10859,
+          "total_secs": 10956,
+          "valid_pct": 99.1,
+          "artifact_rate_avg": 0.37,
           "sufficient": true
         }
       }
