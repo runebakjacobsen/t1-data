@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-12T09:24:52.479553",
+    "last_updated": "2026-10-12T19:15:16.336422",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -718,9 +718,9 @@
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 3,
           "race_proximity": null,
-          "next_week_load": 1.22,
+          "next_week_load": 1.32,
           "plan_coverage_current_week": 1.6,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -753,7 +753,7 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-12T09:24:52.478146",
+    "calculation_timestamp": "2026-10-12T19:15:16.335449",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3042,6 +3042,20 @@
       "description_preview": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\nSection 11 basis: TH-1 Classic Threshold Blocks with a demonstrated athlete-specific 44-minute work ceiling.\nAdaptation target: consolidate the first higher-intensity threshold step without extending duration."
     },
     {
+      "id": 143820375,
+      "date": "2026-10-21",
+      "name": "P2 W43 - Indoor ERG Easy Aerobic Volume Trial Repeat 60min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 36,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\nSection 11 basis: AE-1 Steady-State Endurance (Short), using the 60-minute lower template boundary and adapting intensity downward within the template\u2019s upper-Z1/Z2 allowance because this additional volume sits between Tuesday threshold and Thursday VO2.\nAdaptation target: repeat one hour of recoverable aerobic volume without creating a fourth hard day or compromising Thursday quality."
+    },
+    {
       "id": 143553427,
       "date": "2026-10-22",
       "name": "P2 W43 HARD 2/3 - Indoor NON-ERG VO2 Micro Conditional 3x12x30-15 70min",
@@ -3161,12 +3175,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 9,
+    "attempted": 10,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 9,
-    "bail_no_match": 7
+    "bail_no_match": 8
   },
   "weekly_summary": {
     "total_training_hours": 7.56,
