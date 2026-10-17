@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 7.77,
-      "total_training_formatted": "7h46m",
-      "total_activities": 5,
-      "total_tss": 450
+      "total_training_hours": 6.35,
+      "total_training_formatted": "6h21m",
+      "total_activities": 4,
+      "total_tss": 351
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-16T21:45:47.964862",
+    "last_updated": "2026-10-17T00:14:30.211057",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -100,47 +100,57 @@
     "years_on_platform": 2
   },
   "athlete_notes": null,
-  "alerts": [],
+  "alerts": [
+    {
+      "metric": "tid_distribution",
+      "value": "Polarized",
+      "severity": "warning",
+      "threshold": "7d/28d classification mismatch",
+      "context": "TID shift: 7d Polarized vs 28d Pyramidal. Training distribution changing.",
+      "persistence_days": null,
+      "tier": 3
+    }
+  ],
   "readiness_decision": {
     "recommendation": "go",
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "green",
-        "value": 53.0,
-        "baseline_7d": 47.1,
-        "delta_pct": 12.5
+        "status": "unavailable",
+        "value": null,
+        "baseline_7d": 46.8,
+        "delta_pct": null
       },
       "rhr": {
         "status": "green",
-        "value": 49,
-        "baseline_7d": 49.6,
-        "delta_bpm": -0.6
+        "value": 47,
+        "baseline_7d": 48.9,
+        "delta_bpm": -1.9
       },
       "sleep": {
-        "status": "green",
-        "hours": 7.9,
-        "quality": 2
+        "status": "unavailable",
+        "hours": null,
+        "quality": null
       },
       "acwr": {
         "status": "green",
-        "value": 1.18
+        "value": 0.97
       },
       "ri": {
-        "status": "green",
-        "value": 1.14,
-        "value_yesterday": 1.01
+        "status": "unavailable",
+        "value": null,
+        "value_yesterday": 1.13
       },
       "tsb": {
         "status": "green",
-        "value": -4.3
+        "value": -1.3
       }
     },
     "signal_summary": {
-      "green": 6,
+      "green": 3,
       "amber": 0,
       "red": 0,
-      "unavailable": 0
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Build",
@@ -150,21 +160,21 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 6 green, 0 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 3 green, 0 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-09-07",
-    "age_days": 39,
+    "age_days": 40,
     "total_months": 35,
     "history_confidence": "high"
   },
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 7.77,
-    "total_activities": 5,
+    "total_duration_decimal_hours": 6.35,
+    "total_activities": 4,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 3.04,
@@ -179,13 +189,13 @@
         }
       },
       "VirtualRide": {
-        "duration_decimal_hours": 4.73,
-        "count": 4,
-        "tss": 316,
-        "distance_km": 136.0,
+        "duration_decimal_hours": 3.31,
+        "count": 3,
+        "tss": 217,
+        "distance_km": 97.5,
         "display": {
           "distance": {
-            "value": 136.0,
+            "value": 97.5,
             "unit": "km"
           }
         }
@@ -194,10 +204,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 50.74,
-      "atl": 55.05,
-      "tsb": -4.31,
-      "ramp_rate": 3.26,
+      "ctl": 50.33,
+      "atl": 51.65,
+      "tsb": -1.32,
+      "ramp_rate": 2.95,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -241,12 +251,12 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 49,
-      "hrv": 53.0,
-      "sleep_quality": 2,
-      "sleep_hours": 7.9,
-      "sleep_formatted": "7h54m",
-      "sleep_score": 88.0,
+      "resting_hr": 47,
+      "hrv": null,
+      "sleep_quality": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_score": null,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -254,16 +264,16 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": 97.0,
+      "spO2": null,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": 13.0,
-      "body_fat_pct": 18.5,
+      "respiration": null,
+      "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6776,
+      "steps": null,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -271,7 +281,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": 68.0
+      "readiness": null
     },
     "weight": {
       "weight_latest_kg": 79.6,
@@ -283,7 +293,7 @@
       "wkg_block_end": 3.33,
       "wkg_block_delta": 0.07,
       "weight_7d_avg_kg": 80.0,
-      "weight_28d_slope_kg_per_week": -0.228,
+      "weight_28d_slope_kg_per_week": -0.194,
       "display": {
         "weight_latest": {
           "value": 79.6,
@@ -294,93 +304,93 @@
           "unit": "kg"
         },
         "weight_28d_slope_per_week": {
-          "value": -0.228,
+          "value": -0.194,
           "unit": "kg/week"
         }
       }
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.14,
-    "recovery_index_yesterday": 1.01,
-    "hrv_baseline_7d": 47.1,
-    "rhr_baseline_7d": 49.6,
-    "hrv_baseline_28d": 48.4,
-    "rhr_baseline_28d": 48.7,
-    "latest_hrv": 53.0,
-    "latest_rhr": 49,
-    "acwr": 1.18,
+    "recovery_index": null,
+    "recovery_index_yesterday": 1.13,
+    "hrv_baseline_7d": 46.8,
+    "rhr_baseline_7d": 48.9,
+    "hrv_baseline_28d": 48.5,
+    "rhr_baseline_28d": 48.6,
+    "latest_hrv": null,
+    "latest_rhr": 47,
+    "acwr": 0.97,
     "acwr_interpretation": "optimal",
-    "monotony": 1.21,
+    "monotony": 0.9,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
-    "primary_sport_monotony": 1.21,
-    "primary_sport_tss_7d": 450.0,
-    "effective_monotony": 1.21,
+    "primary_sport_monotony": 0.9,
+    "primary_sport_tss_7d": 351.0,
+    "effective_monotony": 0.9,
     "multi_sport_detected": false,
-    "strain": 544.0,
-    "stress_tolerance": 4.5,
-    "load_recovery_ratio": 3.9,
-    "tss_7d_total": 450.0,
-    "tss_28d_total": 1521.0,
+    "strain": 316.0,
+    "stress_tolerance": 3.5,
+    "load_recovery_ratio": null,
+    "tss_7d_total": 351.0,
+    "tss_28d_total": 1445.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.29,
-      "z2_hours": 3.98,
-      "z3_hours": 1.33,
-      "z4_plus_hours": 1.17,
-      "total_hours": 7.77,
+      "z1_hours": 1.1,
+      "z2_hours": 3.83,
+      "z3_hours": 0.39,
+      "z4_plus_hours": 1.04,
+      "total_hours": 6.35,
       "zone_basis": "power"
     },
-    "grey_zone_percentage": 17.1,
+    "grey_zone_percentage": 6.1,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 15.1,
+    "quality_intensity_percentage": 16.3,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "easy_time_ratio": 0.68,
+    "easy_time_ratio": 0.78,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 2,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 18971,
-      "z2_seconds": 4777,
-      "z3_seconds": 4228,
-      "z1_pct": 67.8,
-      "z2_pct": 17.1,
-      "z3_pct": 15.1,
-      "polarization_index": null,
-      "classification": "Pyramidal",
+      "z1_seconds": 17753,
+      "z2_seconds": 1389,
+      "z3_seconds": 3731,
+      "z1_pct": 77.6,
+      "z2_pct": 6.1,
+      "z3_pct": 16.3,
+      "polarization_index": 2.32,
+      "classification": "Polarized",
       "zone_basis": "power"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 18971,
-      "z2_seconds": 4777,
-      "z3_seconds": 4228,
-      "z1_pct": 67.8,
-      "z2_pct": 17.1,
-      "z3_pct": 15.1,
-      "polarization_index": null,
-      "classification": "Pyramidal",
+      "z1_seconds": 17753,
+      "z2_seconds": 1389,
+      "z3_seconds": 3731,
+      "z1_pct": 77.6,
+      "z2_pct": 6.1,
+      "z3_pct": 16.3,
+      "polarization_index": 2.32,
+      "classification": "Polarized",
       "zone_basis": "power",
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 70506,
-      "z2_seconds": 11712,
-      "z3_seconds": 14626,
-      "z1_pct": 72.8,
-      "z2_pct": 12.1,
-      "z3_pct": 15.1,
-      "polarization_index": 1.96,
+      "z1_seconds": 68838,
+      "z2_seconds": 10314,
+      "z3_seconds": 13490,
+      "z1_pct": 74.3,
+      "z2_pct": 11.1,
+      "z3_pct": 14.6,
+      "polarization_index": 1.99,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 65760,
-      "z2_seconds": 11712,
-      "z3_seconds": 14626,
-      "z1_pct": 71.4,
-      "z2_pct": 12.7,
-      "z3_pct": 15.9,
-      "polarization_index": 1.95,
+      "z1_seconds": 64092,
+      "z2_seconds": 10314,
+      "z3_seconds": 13490,
+      "z1_pct": 72.9,
+      "z2_pct": 11.7,
+      "z3_pct": 15.3,
+      "polarization_index": 1.98,
       "classification": "Pyramidal",
       "zone_basis": "power",
       "sport": "cycling"
@@ -399,9 +409,9 @@
         "note": "Steady-state power sessions only (VI <= 1.05, VI > 0, >= 90min, power data). Negative decoupling = strong durability. Trend compares 7d vs 28d mean (+/-1% = stable). Alerts require N28>=5 (alarm) or N7>=3 AND N28>=5 (declining warning) for statistical reliability."
       },
       "efficiency_factor": {
-        "mean_ef_7d": 1.41,
+        "mean_ef_7d": 1.37,
         "mean_ef_28d": 1.39,
-        "qualifying_sessions_7d": 3,
+        "qualifying_sessions_7d": 2,
         "qualifying_sessions_28d": 8,
         "trend": "stable",
         "note": "Steady-state cycling sessions only (VI <= 1.05, VI > 0, >= 20min, power+HR data). Rising EF = improving aerobic efficiency. Compare like-for-like sessions only \u2014 EF varies with intensity. Trend compares 7d vs 28d mean (+/-0.03 = stable)."
@@ -415,23 +425,23 @@
         "note": "HRRc = heart rate recovery (largest 60s HR drop in bpm after exceeding threshold HR for >1 min). Higher = better parasympathetic recovery. Null when threshold not reached, recording stopped before cooldown, or no HR data. Trend: 7d mean vs 28d mean, >10% = meaningful (min 1 session/7d, 3 sessions/28d). Display only \u2014 not wired into readiness_decision signals."
       },
       "tid_comparison": {
-        "classification_7d": "Pyramidal",
+        "classification_7d": "Polarized",
         "classification_28d": "Pyramidal",
-        "pi_7d": null,
-        "pi_28d": 1.96,
-        "pi_delta": null,
-        "drift": "consistent",
+        "pi_7d": 2.32,
+        "pi_28d": 1.99,
+        "pi_delta": 0.33,
+        "drift": "shifting",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       },
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-09-19",
-          "end": "2026-10-16"
+          "start": "2026-09-20",
+          "end": "2026-10-17"
         },
         "previous_window": {
-          "start": "2026-08-22",
-          "end": "2026-09-18"
+          "start": "2026-08-23",
+          "end": "2026-09-19"
         },
         "anchors": {
           "5s": {
@@ -466,12 +476,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-09-19",
-          "end": "2026-10-16"
+          "start": "2026-09-20",
+          "end": "2026-10-17"
         },
         "previous_window": {
-          "start": "2026-08-22",
-          "end": "2026-09-18"
+          "start": "2026-08-23",
+          "end": "2026-09-19"
         },
         "anchors": {
           "60s": {
@@ -501,8 +511,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-09-05",
-          "end": "2026-10-16"
+          "start": "2026-09-06",
+          "end": "2026-10-17"
         },
         "weight_kg": 79.6,
         "weight_source": "wellness_recent",
@@ -596,7 +606,7 @@
           "coverage_ratio": 1.0,
           "ftp_used": 265,
           "w_prime_used": 20910,
-          "ftp_staleness_days": 13,
+          "ftp_staleness_days": 14,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       },
@@ -651,18 +661,18 @@
             "confidence": "high"
           },
           "run": {
-            "n_sessions": 2,
+            "n_sessions": 1,
             "date_range": [
-              "2026-10-02",
+              "2026-10-09",
               "2026-10-09"
             ],
-            "avg_dfa_a1": 0.581,
+            "avg_dfa_a1": 0.495,
             "drift_delta_mean": null,
             "lt1_crossing_sessions": 0,
-            "lt2_crossing_sessions": 2,
+            "lt2_crossing_sessions": 1,
             "lt1_estimate": null,
             "lt2_estimate": null,
-            "quality_avg_pct": 94.8,
+            "quality_avg_pct": 95.8,
             "validated": false,
             "confidence": null,
             "note": "DFA a1 threshold mapping (1.0/0.5) is cycling-validated. run thresholds may differ \u2014 treat estimates as informational only."
@@ -670,21 +680,20 @@
         }
       }
     },
-    "consistency_index": 0.83,
+    "consistency_index": 0.67,
     "consistency_details": {
       "planned_days": 6,
-      "completed_days": 5,
-      "matched_days": 5,
+      "completed_days": 4,
+      "matched_days": 4,
       "planned_dates": [
-        "2026-10-10",
         "2026-10-11",
         "2026-10-13",
         "2026-10-14",
         "2026-10-15",
-        "2026-10-16"
+        "2026-10-16",
+        "2026-10-17"
       ],
       "completed_dates": [
-        "2026-10-10",
         "2026-10-11",
         "2026-10-13",
         "2026-10-14",
@@ -703,13 +712,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.55,
+          "planned_tss_delta": 2.32,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 3,
           "race_proximity": null,
           "next_week_load": 1.3,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
@@ -743,12 +752,12 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-16T21:45:47.963499",
+    "calculation_timestamp": "2026-10-17T00:14:30.210132",
     "data_quality": {
-      "hrv_data_points": 7,
+      "hrv_data_points": 6,
       "rhr_data_points": 7,
-      "activities_7d": 5,
-      "activities_28d": 19,
+      "activities_7d": 4,
+      "activities_28d": 18,
       "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 124,
@@ -1866,24 +1875,8 @@
           "z5_time": 0
         }
       },
-      "has_intervals": true,
-      "has_dfa": true,
-      "dfa_summary": {
-        "avg": 0.667,
-        "dominant_band": "transition_lt2",
-        "tiz_pct": {
-          "below_lt1": 7.1,
-          "lt1_transition": 15.5,
-          "transition_lt2": 60.9,
-          "above_lt2": 16.5
-        },
-        "valid_pct": 93.7,
-        "sufficient": true,
-        "drift_delta": -0.057,
-        "drift_interpretable": false,
-        "lt2_watts": 303,
-        "lt2_hr": 124
-      },
+      "has_intervals": false,
+      "has_dfa": false,
       "terrain_summary": {
         "source": "activity_streams",
         "total_distance_km": 5.2,
@@ -2520,129 +2513,9 @@
       },
       "has_intervals": false,
       "has_dfa": false
-    },
-    {
-      "id": "i188119262",
-      "date": "2026-09-19T07:33:16",
-      "type": "VirtualRide",
-      "name": "P2 W38 HARD 3/3 - Indoor ERG Sweet Spot 2x20 at 90% 70min",
-      "duration_hours": 1.17,
-      "distance_km": 34.19,
-      "tss": 76,
-      "intensity_factor": 80.708664,
-      "avg_power": 193,
-      "normalized_power": 205,
-      "avg_hr": 144,
-      "max_hr": 160,
-      "avg_cadence": 97.05689,
-      "avg_speed": 29.3,
-      "avg_speed_unit": "KPH",
-      "max_speed": 31.6,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": 25.242504,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "MPS",
-      "work_kj": 809.2,
-      "calories": 911,
-      "carbs_used": 171,
-      "carbs_ingested": 60,
-      "variability_index": 1.0621761,
-      "decoupling": 6.3100047,
-      "efficiency_factor": 1.4236112,
-      "hrrc": null,
-      "elevation_m": null,
-      "display": {
-        "distance": {
-          "value": 34.19,
-          "unit": "km"
-        },
-        "elevation": null,
-        "avg_speed": {
-          "value": 29.3,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 31.6,
-          "unit": "km/h"
-        }
-      },
-      "feel": 3,
-      "rpe": 6,
-      "effort_response": "neutral",
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 1058,
-          "z2_time": 750,
-          "z3_time": 647,
-          "z4_time": 1747,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        },
-        "power_zones": {
-          "z1_time": 1012,
-          "z2_time": 656,
-          "z3_time": 1398,
-          "z4_time": 1136,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      },
-      "has_intervals": false,
-      "has_dfa": false
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-10-10",
-      "weight_kg": 80.01,
-      "display": {
-        "weight": {
-          "value": 80.0,
-          "unit": "kg"
-        }
-      },
-      "resting_hr": 52,
-      "hrv_rmssd": 49.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 8.18,
-      "sleep_formatted": "8h11m",
-      "sleep_quality": 1,
-      "sleep_score": 91.0,
-      "mental_energy": null,
-      "avg_sleeping_hr": 54.0,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": 97.0,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": 13.0,
-      "body_fat_pct": 18.7,
-      "abdomen_cm": null,
-      "steps": 4408,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": 82.0
-    },
     {
       "date": "2026-10-11",
       "weight_kg": 79.589,
@@ -2903,7 +2776,7 @@
       "respiration": 13.0,
       "body_fat_pct": 18.5,
       "abdomen_cm": null,
-      "steps": 6776,
+      "steps": 7170,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2912,22 +2785,51 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": 68.0
+    },
+    {
+      "date": "2026-10-17",
+      "weight_kg": null,
+      "display": {
+        "weight": null
+      },
+      "resting_hr": 47,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 141413468,
-      "date": "2026-10-16",
-      "name": "P2 W42 - Easy Run \u2014 Impact Maintenance Hold 45min",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 34,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\n\nSection 11 basis: individualized secondary-sport impact maintenance.\nAdaptation target: maintain impact familiarity without competing with cycling quality.\n\nProgression classification: HOLD. Forty-five minutes is already demonstrated, while W40 was stopped at 33 minutes despite RPE 1 and Feel 1 and no explanatory note is available. W41 is the next symptom-gated 45-minute exposure; W42 therefore holds rather than extends it. Use the full duration only after symptom-free W41 execution and 24\u201348-hour response; otherwise repeat 40 minutes or skip.\n\nExecution: 5-minute easy warm-up, 35 minutes at approximately 6:25\u20136:55/km on flat predictable terrain, then 5-minute easy cool-down. Keep RPE 2\u20133 and conversational throughout. Start only with normal walking/stairs, no pain at rest and no focal shin/ankle tenderness. Stop for focal or increasing pain, pain above 2/10 or gait change. Do not add cycling if shortened or skipped.\n\nPrescription-time control: this W42 workout is written before W41 execution. Re-audit it from the completed W41 prescription/execution pair and 24\u201348-hour response. The hold is intentional risk control, not proof that progression is unnecessary; revise before execution if W41 supplies coherent evidence for a different dose.\nReadiness gate: use the current Section 11 readiness decision plus new athlete-reported illness, sleep, soreness, pain, coordination and in-session response. Athlete-reported adverse state overrides favorable modeled metrics. Reduce, substitute or skip rather than forcing the dose, and do not repay reduced or missed work."
-    },
     {
       "id": 141413469,
       "date": "2026-10-17",
@@ -3035,7 +2937,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description_preview": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\nSection 11 basis: SS-1 Sustained Sweet Spot Blocks, using power progression only after the adapted duration ceiling is reached.\nAdaptation target: conditionally raise the established 64-minute sweet-spot dose from approximately 229 W to approximately 233 W without adding work time."
+      "description": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\n\nSection 11 basis: SS-1 Sustained Sweet Spot Blocks, using power progression only after the adapted duration ceiling is reached.\nAdaptation target: conditionally raise the established 64-minute sweet-spot dose from approximately 229 W to approximately 233 W without adding work time.\n\nProgression classification: CONDITIONAL PROGRESS. W41 completed 2 x 30 at 228/229 W with stable cadence, no fade, RPE 7 and Feel 2. W42 is prescribed as 2 x 32 at the same 88.5%. If W42 completes cleanly, it supplies the second successive compliant same-purpose exposure needed before a Section 11 sweet-spot power increase; W43 then changes intensity only from 88.5% to 90% (+approximately 4 W / 1.7%). If that evidence or fresh readiness is absent, repeat 88.5%, shorten, ride aerobically or skip.\n\nTemplate-ceiling audit \u2014 template SS-1; canonical structure 2\u20133 x 15\u201320 minutes with 5-minute recovery and stated 55\u201380-minute work range; canonical uninterrupted-block ceiling 20 minutes and top canonical structure 3 x 20/60 minutes; the 90-minute cap supports at most 65 work minutes after 15-minute warm-up, 5-minute recovery and 5-minute minimum cooldown; athlete-specific two-block ceiling 64 minutes, supported by clean W41 2 x 30 and conditional on clean W42 2 x 32; current completed dose 60 minutes at 88.5%, intervening W42 dose 64 minutes at 88.5%, proposed W43 dose 64 minutes at 90%; active variable intensity only; one-variable check PASS.\n\n- 5m 55% FTP\n- 5m 70% FTP\n- 5m 80% FTP\n- 32m 90% FTP\n- 5m 50% FTP\n- 32m 90% FTP\n- 6m 55% FTP\n\nIndoor ERG steps use one exact target against 259 W; 90% resolves to approximately 233 W. Match both blocks with stable cadence and keep RPE 7\u20138. Do not add duration or a fast finish.\n\nPrescription-time control: this is a conditional next-step prescription written before W42 execution. Absence of W42 execution is not failure evidence. Retain the listed dose only if the W42 comparable session is completed to target with stable mechanics, acceptable RPE/Feel and normal 24\u201348-hour recovery, and fresh readiness meets the Section 11 gate. Otherwise repeat the last clean step, reduce, substitute or skip; never compensate elsewhere.\nReadiness gate: use the fresh Section 11 readiness decision on the day plus new athlete-reported illness, sleep, soreness, pain, coordination and in-session response. Athlete-reported adverse state overrides favorable modeled metrics. Reduce, substitute or skip rather than forcing the dose, and do not repay reduced or missed work."
     },
     {
       "id": 143553438,
@@ -3108,16 +3010,16 @@
     "success": 1,
     "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 7,
+    "bail_no_workout_doc": 6,
     "bail_no_match": 6
   },
   "weekly_summary": {
-    "total_training_hours": 7.77,
-    "total_training_formatted": "7h46m",
-    "total_tss": 450,
-    "activities_count": 5,
-    "avg_hrv": 47.1,
-    "avg_resting_hr": 49.6
+    "total_training_hours": 6.35,
+    "total_training_formatted": "6h21m",
+    "total_tss": 351,
+    "activities_count": 4,
+    "avg_hrv": 46.8,
+    "avg_resting_hr": 48.9
   },
   "race_calendar": {
     "next_race": null,
