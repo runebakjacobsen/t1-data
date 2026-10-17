@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-17T16:15:48.479929",
+    "last_updated": "2026-10-17T18:44:14.254795",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -273,7 +273,7 @@
       "respiration": 13.0,
       "body_fat_pct": 18.7,
       "abdomen_cm": null,
-      "steps": 2560,
+      "steps": 5626,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -752,7 +752,7 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-17T16:15:48.478966",
+    "calculation_timestamp": "2026-10-17T18:44:14.253801",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2821,7 +2821,7 @@
       "respiration": 13.0,
       "body_fat_pct": 18.7,
       "abdomen_cm": null,
-      "steps": 2560,
+      "steps": 5626,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2845,7 +2845,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\n\nSection 11 basis: SS-1 Sustained Sweet Spot Blocks, athlete-adapted duration progression.\nAdaptation target: extend the controlled third-hard-day dose at the established approximately 229 W target.\n\nProgression classification: CONDITIONAL PROGRESS. W41 completed 2 x 30 at 228/229 W with stable cadence, no fade, RPE 7 and Feel 2. W42 adds four total work minutes while holding 88.5%/approximately 229 W. The Sunday 11 October audit found P2 Modify (RI 0.74 and HRV 20.9% below baseline), so 2 x 32 requires supportive fresh Saturday readiness plus acceptable Tuesday/Thursday execution; otherwise repeat 2 x 30, shorten, ride aerobically or skip.\n\nTemplate-ceiling audit \u2014 template SS-1; canonical structure 2\u20133 x 15\u201320 minutes with 5-minute recovery and stated 55\u201380-minute work range; canonical uninterrupted-block ceiling 20 minutes and top canonical structure 3 x 20/60 minutes; the 90-minute weekday cap supports at most 65 work minutes after 15-minute warm-up, 5-minute recovery and 5-minute minimum cooldown; athlete-specific two-block ceiling 64 minutes, conditional on clean W41 2 x 30 evidence and no adverse intervening response; current completed dose 60 minutes at 88.5%; proposed dose 64 minutes at 88.5%; active variable work duration only; one-variable check PASS.\n\n- 5m 55% FTP\n- 5m 70% FTP\n- 5m 80% FTP\n- 32m 88.5% FTP\n- 5m 50% FTP\n- 32m 88.5% FTP\n- 6m 55% FTP\n\nIndoor ERG steady steps use one exact target. Match both blocks with stable cadence and keep RPE 7\u20138. Do not progress watts and duration together.\n\nReadiness gate: use the fresh Section 11 readiness decision on the day plus new athlete-reported illness, sleep, soreness, pain, coordination and in-session response. Athlete-reported adverse state overrides favorable modeled metrics. Reduce, substitute or skip rather than forcing the dose, and do not repay reduced or missed work."
+      "description": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\n\nSection 11 basis: SS-1 Sustained Sweet Spot Blocks, athlete-adapted duration progression.\nAdaptation target: extend the controlled third-hard-day dose at the established approximately 229 W target.\n\nProgression classification: CONDITIONAL PROGRESS. W41 completed 2 x 30 at 228/229 W with stable cadence, no fade, RPE 7 and Feel 2. W42 adds four total work minutes while holding 88.5%/approximately 229 W. The Sunday 11 October audit found P2 Modify (RI 0.74 and HRV 20.9% below baseline), so 2 x 32 requires supportive fresh Saturday readiness plus acceptable Tuesday/Thursday execution; otherwise repeat 2 x 30, shorten, ride aerobically or skip.\n\nTemplate-ceiling audit \u2014 template SS-1; canonical structure 2\u20133 x 15\u201320 minutes with 5-minute recovery and stated 55\u201380-minute work range; canonical uninterrupted-block ceiling 20 minutes and top canonical structure 3 x 20/60 minutes; the 90-minute weekday cap supports at most 65 work minutes after 15-minute warm-up, 5-minute recovery and 5-minute minimum cooldown; athlete-specific two-block ceiling 64 minutes, conditional on clean W41 2 x 30 evidence and no adverse intervening response; current completed dose 60 minutes at 88.5%; proposed dose 64 minutes at 88.5%; active variable work duration only; one-variable check PASS.\n\n- 5m 55% FTP\n- 5m 70% FTP\n- 5m 80% FTP\n- 32m 88.5% FTP\n- 5m 50% FTP\n- 32m 88.5% FTP\n- 6m 55% FTP\n\nIndoor ERG steady steps use one exact target. Match both blocks with stable cadence and keep RPE 7\u20138. Do not progress watts and duration together.\n\nReadiness gate: use the fresh Section 11 readiness decision on the day plus new athlete-reported illness, sleep, soreness, pain, coordination and in-session response. Athlete-reported adverse state overrides favorable modeled metrics. Reduce, substitute or skip rather than forcing the dose, and do not repay reduced or missed work.\n\nOutcome note: Intentionally skipped after an all-day family birthday celebration with prolonged kitchen and guest workload, marked fatigue, low motivation and a late possible start. Athlete-reported state overrode green morning metrics; no compensation planned."
     },
     {
       "id": 141413470,
