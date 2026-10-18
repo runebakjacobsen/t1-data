@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-18T14:25:02.720859",
+    "last_updated": "2026-10-18T17:29:03.140256",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -717,7 +717,7 @@
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 2,
           "race_proximity": null,
-          "next_week_load": 1.3,
+          "next_week_load": 1.28,
           "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.4
         },
@@ -752,7 +752,7 @@
     "p_max": 793,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-18T14:25:02.719473",
+    "calculation_timestamp": "2026-10-18T17:29:03.139252",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2939,16 +2939,16 @@
     {
       "id": 143553435,
       "date": "2026-10-24",
-      "name": "P2 W43 HARD 3/3 - Indoor ERG Sweet Spot Conditional 2x32 at 90% 90min",
+      "name": "P2 W43 HARD 3/3 - Indoor ERG Sweet Spot Evidence Hold 2x30 at 88.5% 86min",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 107,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
+      "planned_tss": 99,
+      "duration_hours": 1.43,
+      "duration_formatted": "1h26m",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\n\nSection 11 basis: SS-1 Sustained Sweet Spot Blocks, using power progression only after the adapted duration ceiling is reached.\nAdaptation target: conditionally raise the established 64-minute sweet-spot dose from approximately 229 W to approximately 233 W without adding work time.\n\nProgression classification: CONDITIONAL PROGRESS. W41 completed 2 x 30 at 228/229 W with stable cadence, no fade, RPE 7 and Feel 2. W42 is prescribed as 2 x 32 at the same 88.5%. If W42 completes cleanly, it supplies the second successive compliant same-purpose exposure needed before a Section 11 sweet-spot power increase; W43 then changes intensity only from 88.5% to 90% (+approximately 4 W / 1.7%). If that evidence or fresh readiness is absent, repeat 88.5%, shorten, ride aerobically or skip.\n\nTemplate-ceiling audit \u2014 template SS-1; canonical structure 2\u20133 x 15\u201320 minutes with 5-minute recovery and stated 55\u201380-minute work range; canonical uninterrupted-block ceiling 20 minutes and top canonical structure 3 x 20/60 minutes; the 90-minute cap supports at most 65 work minutes after 15-minute warm-up, 5-minute recovery and 5-minute minimum cooldown; athlete-specific two-block ceiling 64 minutes, supported by clean W41 2 x 30 and conditional on clean W42 2 x 32; current completed dose 60 minutes at 88.5%, intervening W42 dose 64 minutes at 88.5%, proposed W43 dose 64 minutes at 90%; active variable intensity only; one-variable check PASS.\n\n- 5m 55% FTP\n- 5m 70% FTP\n- 5m 80% FTP\n- 32m 90% FTP\n- 5m 50% FTP\n- 32m 90% FTP\n- 6m 55% FTP\n\nIndoor ERG steps use one exact target against 259 W; 90% resolves to approximately 233 W. Match both blocks with stable cadence and keep RPE 7\u20138. Do not add duration or a fast finish.\n\nPrescription-time control: this is a conditional next-step prescription written before W42 execution. Absence of W42 execution is not failure evidence. Retain the listed dose only if the W42 comparable session is completed to target with stable mechanics, acceptable RPE/Feel and normal 24\u201348-hour recovery, and fresh readiness meets the Section 11 gate. Otherwise repeat the last clean step, reduce, substitute or skip; never compensate elsewhere.\nReadiness gate: use the fresh Section 11 readiness decision on the day plus new athlete-reported illness, sleep, soreness, pain, coordination and in-session response. Athlete-reported adverse state overrides favorable modeled metrics. Reduce, substitute or skip rather than forcing the dose, and do not repay reduced or missed work."
+      "description": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\n\nSection 11 basis: SS-1 Sustained Sweet Spot Blocks, resolved from the current prescription/execution pair rather than from planned load.\nAdaptation target: retain the latest successful sustained sweet-spot dose as the controlled third hard day without treating W42's absent sweet-spot execution as either failure or progression evidence.\n\nProgression classification: EVIDENCE HOLD. W41 completed 2 x 30 at 228/229 W with stable cadence, no work-interval fade, whole-session RPE 7 and Feel 2. W42's planned 2 x 32 at 88.5% was not completed, so the pre-written gate for raising W43 to 90% was not met. Repeat the last clean W41 dose: 60 minutes at 88.5%, with no increase in interval duration, total work or intensity. This is not compensation for W42 and omitted work is not repaid. W43 still differs meaningfully across quality roles: threshold holds its validated 102% ceiling, VO2 progresses the successfully completed micro-interval format by repetitions, and sweet spot alone holds for missing same-purpose evidence.\n\nTemplate-ceiling audit \u2014 template SS-1; canonical structure 2\u20133 x 15\u201320 minutes with a stated 55\u201380-minute work range; top canonical 3 x 20/60 minutes; weekday 90-minute availability allows at most 65 work minutes after a 15-minute warm-up, 5-minute recovery and 5-minute minimum cooldown; athlete-specific two-block ceiling remains 64 minutes but is not activated without a completed 2 x 32 exposure; current completed dose 60 minutes at 88.5%; proposed dose 60 minutes at 88.5%; active variable none, evidence hold; one-variable check PASS. The 60-minute proposal is within all ceilings and uses the athlete's 6-minute time-efficient cooldown.\n\n- 5m 55% FTP\n- 5m 70% FTP\n- 5m 80% FTP\n- 30m 88.5% FTP\n- 5m 50% FTP\n- 30m 88.5% FTP\n- 6m 55% FTP\n\nIndoor ERG steps use exact targets against 259 W; 88.5% resolves to approximately 229 W. Match both blocks with stable cadence and keep RPE around 7. Do not add the omitted W42 minutes, raise power, or add a fast finish.\n\nReadiness gate: use the fresh Section 11 readiness decision plus new athlete-reported illness, sleep, soreness, pain, coordination and in-session response. Athlete-reported adverse state overrides favorable modeled metrics. Shorten, ride aerobically or skip when adverse, and do not repay reduced or missed work."
     },
     {
       "id": 143553438,
@@ -2964,17 +2964,84 @@
       "description": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\n\nSection 11 basis: AE-3 Long Durability Ride, held at the ordinary weekend limit.\nAdaptation target: consolidate repeatable aerobic durability and race-level fueling practice without adding tempo after three separated quality days.\n\nProgression classification: HOLD. W41 completed 3h02 moving at 175 W average / 178 W NP, VI 1.014, decoupling -2.42%, RPE 2, Feel 2 and approximately 89 g carbohydrate/hour. This supports durability and fueling repeatability, but the 3-hour family limit is already reached and the Sunday readiness snapshot was P2 Modify. W43 therefore holds duration and aerobic power; it neither extends the ride nor adds a tempo finish.\n\n- 10m 55-65% FTP\n- 160m 62-72% FTP\n- 10m 50-60% FTP\n\nUse ranges against the current 265 W outdoor FTP. The main range resolves to 164\u2013191 W; normally settle around 170\u2013180 W rather than chasing the upper edge. Keep RPE 2\u20133 and avoid repeated threshold climbing. Fuel approximately 90 g carbohydrate/hour from early in the ride. Shorten if Saturday or fresh readiness leaves abnormal fatigue.\n\nPrescription-time control: this is a conditional next-step prescription written before W42 execution. Absence of W42 execution is not failure evidence. Retain the listed dose only if the W42 comparable session is completed to target with stable mechanics, acceptable RPE/Feel and normal 24\u201348-hour recovery, and fresh readiness meets the Section 11 gate. Otherwise repeat the last clean step, reduce, substitute or skip; never compensate elsewhere.\nReadiness gate: use the fresh Section 11 readiness decision on the day plus new athlete-reported illness, sleep, soreness, pain, coordination and in-session response. Athlete-reported adverse state overrides favorable modeled metrics. Reduce, substitute or skip rather than forcing the dose, and do not repay reduced or missed work."
     },
     {
-      "id": 135899849,
-      "date": "2026-10-26",
-      "name": "P2 W44 SCAFFOLD \u2014 Consolidation / P3 Handoff",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "id": 145812554,
+      "date": "2026-10-27",
+      "name": "P2 W44 CONSOLIDATION - Indoor ERG Threshold Touch 2x15 at 102% 70min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 86,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\nStatus: provisional weekly architecture scaffold only \u2014 not an exact workout prescription. No hours or training load are assigned by this note.\nArchitecture: Planned consolidation after W41\u2013W43 loading and Phase 2 exit week. Preserve useful frequency while reducing total stress from completed-session evidence: normally one shortened cycling quality touch, no second or third hard slot, an easy aerobic ride, a reduced long aerobic ride, easy impact maintenance when symptom-free, and home-first strength only when movement quality and soreness are normal."
+      "indoor": true,
+      "description_preview": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\nSection 11 basis: TH-1 Classic Threshold Blocks, adapted as the single shortened consolidation quality touch.\nAdaptation target: retain threshold coordination and the established 102% intensity while materially reducing work duration and weekly hard-day count after W41\u2013W43 loading."
+    },
+    {
+      "id": 145812555,
+      "date": "2026-10-28",
+      "name": "P2 W44 CONSOLIDATION - Optional Indoor Recovery Spin 30min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 14,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\nSection 11 basis: AE-4 Active Recovery, adapted to a short exact indoor session.\nAdaptation target: preserve routine and circulation at negligible recovery cost; this is not Zone 2 volume and not a progression opportunity."
+    },
+    {
+      "id": 145812556,
+      "date": "2026-10-29",
+      "name": "P2 W44 - Home Strength Viability Hold 35min",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 10,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\nSection 11 basis: individualized home-strength foundation using confirmed pull-up-bar and bodyweight access only.\nAdaptation target: retain one recorded strength exposure during consolidation without adding external load or creating another cycling hard day."
+    },
+    {
+      "id": 145812557,
+      "date": "2026-10-30",
+      "name": "P2 W44 - Easy Run \u2014 Impact Maintenance Hold 45min",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 34,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\nSection 11 basis: individualized secondary-sport impact maintenance.\nAdaptation target: preserve impact familiarity without competing with cycling recovery or the Phase 3 handoff."
+    },
+    {
+      "id": 145812561,
+      "date": "2026-10-31",
+      "name": "P2 W44 CONSOLIDATION - Outdoor Aerobic Maintenance 60min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 39,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\nSection 11 basis: AE-1 Steady-State Endurance (Short), adapted to outdoor percentage ranges and consolidation placement.\nAdaptation target: preserve aerobic frequency and normal pedalling rhythm without creating a second hard day or compromising Sunday's reduced long ride."
+    },
+    {
+      "id": 145812562,
+      "date": "2026-11-01",
+      "name": "P2 W44 CONSOLIDATION - Long Aerobic Ride 2h30",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 108,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\nSection 11 basis: AE-3 Long Durability Ride, deliberately reduced for consolidation and the Phase 3 handoff.\nAdaptation target: preserve aerobic durability and practiced fueling while reducing duration after repeated clean three-hour loading rides."
     },
     {
       "id": 139523944,
@@ -3014,15 +3081,28 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nStatus: provisional weekly architecture scaffold only \u2014 not an exact workout prescription. No hours or training load are assigned by this note.\nArchitecture: preserve the normal approximately eight-hour cycling-plus-running planning centre with strength additional, without using it as a cap, floor or filler requirement. Continue progressive sweet-spot/threshold durability, one genuinely aerobic long ride preferably outdoors, one easy impact-maintenance run and one to two home-first strength sessions only as current recovery and recorded strength response support. Add a separate VO2/high-aerobic slot only when the completed P2 block and W45\u2013W46 response show threshold durability is stable and the dose can remain separated by at least two calendar days. Respect the weekday 1h30 and normal weekend 3h ride limits; longer race-specific rides still require prior discussion."
+    },
+    {
+      "id": 145812563,
+      "date": "2026-11-23",
+      "name": "P3 W48 SCAFFOLD \u2014 Base Durability / FTP Foundation",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nStatus: provisional weekly architecture scaffold only \u2014 not an exact workout prescription. No hours or training load are assigned by this note.\nArchitecture: preserve the normal approximately eight-hour cycling-plus-running planning centre with strength additional, without using it as a cap, floor or filler requirement. Continue progressive sweet-spot/threshold durability, one genuinely aerobic long ride preferably outdoors, one easy impact-maintenance run and one to two home-first strength sessions only as current recovery and recorded strength response support. Add a separate VO2/high-aerobic slot only when the completed P2 block and prior P3 response show threshold durability is stable and the dose can remain separated by at least two calendar days. Respect the weekday 1h30 and normal weekend 3h ride limits; longer race-specific rides still require prior discussion."
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
+    "attempted": 10,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 6,
-    "bail_no_match": 5
+    "bail_no_workout_doc": 8,
+    "bail_no_match": 9
   },
   "weekly_summary": {
     "total_training_hours": 6.38,
