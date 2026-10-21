@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:59:05.687183",
+  "generated_at": "2026-10-21T20:33:04.386934",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -2626,6 +2626,66 @@
           "total_secs": 4444,
           "valid_pct": 97.8,
           "artifact_rate_avg": 0.57,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i200099890",
+      "date": "2026-10-21",
+      "type": "VirtualRide",
+      "name": "P2 W43 - Indoor ERG Easy Aerobic Volume Trial Repeat 60min",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3604,
+          "avg_power": 153,
+          "max_power": 202,
+          "avg_hr": 112,
+          "max_hr": 125,
+          "avg_cadence": 89.53635,
+          "zone": 2,
+          "training_load": 35.393555,
+          "decoupling": -3.8570538,
+          "avg_dfa_a1": 1.5170028
+        }
+      ],
+      "dfa": {
+        "avg": 1.517,
+        "p25": 1.517,
+        "p50": 1.517,
+        "p75": 1.517,
+        "tiz_below_lt1": {
+          "secs": 3604,
+          "pct": 100.0,
+          "avg_hr": 113,
+          "avg_watts": 154
+        },
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": {
+          "first_third_avg": 1.517,
+          "last_third_avg": 1.517,
+          "delta": 0.0,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 3604,
+          "total_secs": 3604,
+          "valid_pct": 100.0,
+          "artifact_rate_avg": 3.8,
           "sufficient": true
         }
       }
