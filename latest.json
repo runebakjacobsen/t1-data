@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-22T13:08:23.922891",
+    "last_updated": "2026-10-22T18:00:18.442811",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -273,7 +273,7 @@
       "respiration": 12.0,
       "body_fat_pct": 18.7,
       "abdomen_cm": null,
-      "steps": 763,
+      "steps": 5540,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -751,7 +751,7 @@
     "p_max": 790,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-22T13:08:23.921448",
+    "calculation_timestamp": "2026-10-22T18:00:18.441457",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2852,7 +2852,7 @@
       "respiration": 12.0,
       "body_fat_pct": 18.7,
       "abdomen_cm": null,
-      "steps": 763,
+      "steps": 5540,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
