@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-24T19:30:45.102029",
+    "last_updated": "2026-10-24T21:56:27.729642",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -736,7 +736,7 @@
     "p_max": 789,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-24T19:30:45.100710",
+    "calculation_timestamp": "2026-10-24T21:56:27.728962",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -839,7 +839,10 @@
         "drift_interpretable": true,
         "lt1_watts": 225,
         "lt1_hr": 136
-      }
+      },
+      "chat_notes": [
+        "Post-workout context (athlete report, 2026-10-24): The longer-than-planned execution was accidental because a stale workout was selected. Trainer-calibration confounder: the Elite Suito was calibrated after the previous workout, whereas prior calibrations had been performed cold/immediately after starting rather than after the manufacturer-recommended warm-up. This may have changed the reported-power/ERG-resistance relationship, so this ride's watts are not directly comparable with pre-calibration indoor sessions. RPE 4 / Feel 1 and the low HR remain valid internal-response observations, but this ride alone should not be used to raise indoor FTP or progress the sweet-spot dose."
+      ]
     },
     {
       "id": "i200494338",
