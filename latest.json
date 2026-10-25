@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 4.82,
-      "total_training_formatted": "4h49m",
-      "total_activities": 4,
-      "total_tss": 329
+      "total_training_hours": 7.32,
+      "total_training_formatted": "7h19m",
+      "total_activities": 5,
+      "total_tss": 447
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-25T17:33:39.654080",
+    "last_updated": "2026-10-25T19:59:07.273019",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -100,7 +100,17 @@
     "years_on_platform": 2
   },
   "athlete_notes": null,
-  "alerts": [],
+  "alerts": [
+    {
+      "metric": "tid_distribution",
+      "value": "Polarized",
+      "severity": "warning",
+      "threshold": "7d/28d classification mismatch",
+      "context": "TID shift: 7d Polarized vs 28d Pyramidal. Training distribution changing.",
+      "persistence_days": null,
+      "tier": 3
+    }
+  ],
   "readiness_decision": {
     "recommendation": "go",
     "priority": 3,
@@ -124,7 +134,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.94
+        "value": 1.18
       },
       "ri": {
         "status": "green",
@@ -133,7 +143,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 0.4
+        "value": -12.5
       }
     },
     "signal_summary": {
@@ -163,17 +173,17 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 4.82,
-    "total_activities": 4,
+    "total_duration_decimal_hours": 7.32,
+    "total_activities": 5,
     "by_activity_type": {
       "VirtualRide": {
-        "duration_decimal_hours": 4.82,
-        "count": 4,
-        "tss": 329,
-        "distance_km": 134.4,
+        "duration_decimal_hours": 7.32,
+        "count": 5,
+        "tss": 447,
+        "distance_km": 202.4,
         "display": {
           "distance": {
-            "value": 134.4,
+            "value": 202.4,
             "unit": "km"
           }
         }
@@ -182,11 +192,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 50.82,
-      "atl": 50.42,
-      "tsb": 0.4,
-      "ramp_rate": 2.44,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 53.6,
+      "atl": 66.12,
+      "tsb": -12.52,
+      "ramp_rate": 2.06,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 252.2,
@@ -251,7 +261,7 @@
       "respiration": 13.0,
       "body_fat_pct": 18.4,
       "abdomen_cm": null,
-      "steps": 8015,
+      "steps": 9375,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -297,77 +307,77 @@
     "rhr_baseline_28d": 48.7,
     "latest_hrv": 42.0,
     "latest_rhr": 51,
-    "acwr": 0.94,
+    "acwr": 1.18,
     "acwr_interpretation": "optimal",
-    "monotony": 0.94,
+    "monotony": 1.25,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
-    "primary_sport_monotony": 0.94,
-    "primary_sport_tss_7d": 329.0,
-    "effective_monotony": 0.94,
+    "primary_sport_monotony": 1.25,
+    "primary_sport_tss_7d": 447.0,
+    "effective_monotony": 1.25,
     "multi_sport_detected": false,
-    "strain": 309.0,
-    "stress_tolerance": 3.3,
-    "load_recovery_ratio": 4.2,
-    "tss_7d_total": 329.0,
-    "tss_28d_total": 1394.0,
+    "strain": 559.0,
+    "stress_tolerance": 4.5,
+    "load_recovery_ratio": 5.7,
+    "tss_7d_total": 447.0,
+    "tss_28d_total": 1512.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.01,
-      "z2_hours": 1.47,
-      "z3_hours": 0.79,
+      "z1_hours": 1.12,
+      "z2_hours": 3.78,
+      "z3_hours": 0.87,
       "z4_plus_hours": 1.55,
-      "total_hours": 4.82,
+      "total_hours": 7.32,
       "zone_basis": "power"
     },
-    "grey_zone_percentage": 16.4,
+    "grey_zone_percentage": 11.9,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 32.2,
+    "quality_intensity_percentage": 21.2,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "easy_time_ratio": 0.51,
+    "easy_time_ratio": 0.67,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 3,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 8928,
-      "z2_seconds": 2841,
-      "z3_seconds": 5583,
-      "z1_pct": 51.5,
-      "z2_pct": 16.4,
-      "z3_pct": 32.2,
-      "polarization_index": 2.0,
-      "classification": "Pyramidal",
+      "z1_seconds": 17634,
+      "z2_seconds": 3133,
+      "z3_seconds": 5590,
+      "z1_pct": 66.9,
+      "z2_pct": 11.9,
+      "z3_pct": 21.2,
+      "polarization_index": 2.08,
+      "classification": "Polarized",
       "zone_basis": "power"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 8928,
-      "z2_seconds": 2841,
-      "z3_seconds": 5583,
-      "z1_pct": 51.5,
-      "z2_pct": 16.4,
-      "z3_pct": 32.2,
-      "polarization_index": 2.0,
-      "classification": "Pyramidal",
+      "z1_seconds": 17634,
+      "z2_seconds": 3133,
+      "z3_seconds": 5590,
+      "z1_pct": 66.9,
+      "z2_pct": 11.9,
+      "z3_pct": 21.2,
+      "polarization_index": 2.08,
+      "classification": "Polarized",
       "zone_basis": "power",
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 61945,
-      "z2_seconds": 10231,
-      "z3_seconds": 14280,
-      "z1_pct": 71.6,
-      "z2_pct": 11.8,
-      "z3_pct": 16.5,
+      "z1_seconds": 70651,
+      "z2_seconds": 10523,
+      "z3_seconds": 14287,
+      "z1_pct": 74.0,
+      "z2_pct": 11.0,
+      "z3_pct": 15.0,
       "polarization_index": 2.0,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 57199,
-      "z2_seconds": 10231,
-      "z3_seconds": 14280,
-      "z1_pct": 70.0,
-      "z2_pct": 12.5,
-      "z3_pct": 17.5,
+      "z1_seconds": 65905,
+      "z2_seconds": 10523,
+      "z3_seconds": 14287,
+      "z1_pct": 72.7,
+      "z2_pct": 11.6,
+      "z3_pct": 15.7,
       "polarization_index": 1.99,
       "classification": "Pyramidal",
       "zone_basis": "power",
@@ -375,22 +385,22 @@
     },
     "capability": {
       "durability": {
-        "mean_decoupling_7d": null,
-        "mean_decoupling_28d": -0.24,
+        "mean_decoupling_7d": 1.5,
+        "mean_decoupling_28d": -0.14,
         "high_drift_count_7d": 0,
         "high_drift_count_28d": 0,
-        "qualifying_sessions_7d": 1,
-        "qualifying_sessions_28d": 4,
-        "trend": null,
+        "qualifying_sessions_7d": 2,
+        "qualifying_sessions_28d": 5,
+        "trend": "declining",
         "reliability_limited": true,
-        "reliability_note": "insufficient qualifying sessions for alert evaluation: 7d N=1 (min 3), 28d N=4 (min 5)",
+        "reliability_note": "insufficient qualifying sessions for alert evaluation: 7d N=2 (min 3), 28d N=5 (min 5)",
         "note": "Steady-state power sessions only (VI <= 1.05, VI > 0, >= 90min, power data). Negative decoupling = strong durability. Trend compares 7d vs 28d mean (+/-1% = stable). Alerts require N28>=5 (alarm) or N7>=3 AND N28>=5 (declining warning) for statistical reliability."
       },
       "efficiency_factor": {
-        "mean_ef_7d": 1.51,
+        "mean_ef_7d": 1.49,
         "mean_ef_28d": 1.44,
-        "qualifying_sessions_7d": 2,
-        "qualifying_sessions_28d": 8,
+        "qualifying_sessions_7d": 3,
+        "qualifying_sessions_28d": 9,
         "trend": "improving",
         "note": "Steady-state cycling sessions only (VI <= 1.05, VI > 0, >= 20min, power+HR data). Rising EF = improving aerobic efficiency. Compare like-for-like sessions only \u2014 EF varies with intensity. Trend compares 7d vs 28d mean (+/-0.03 = stable)."
       },
@@ -403,12 +413,12 @@
         "note": "HRRc = heart rate recovery (largest 60s HR drop in bpm after exceeding threshold HR for >1 min). Higher = better parasympathetic recovery. Null when threshold not reached, recording stopped before cooldown, or no HR data. Trend: 7d mean vs 28d mean, >10% = meaningful (min 1 session/7d, 3 sessions/28d). Display only \u2014 not wired into readiness_decision signals."
       },
       "tid_comparison": {
-        "classification_7d": "Pyramidal",
+        "classification_7d": "Polarized",
         "classification_28d": "Pyramidal",
-        "pi_7d": 2.0,
+        "pi_7d": 2.08,
         "pi_28d": 2.0,
-        "pi_delta": 0.0,
-        "drift": "consistent",
+        "pi_delta": 0.08,
+        "drift": "shifting",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       },
       "power_curve_delta": {
@@ -569,8 +579,8 @@
               "model_divergence_pct": -21.6
             },
             "7200s": {
-              "actual_watts": 173,
-              "actual_wpkg": 2.17,
+              "actual_watts": 181,
+              "actual_wpkg": 2.27,
               "actual_hr": 123,
               "pct_lthr": 75.9,
               "source": "observed_outdoor",
@@ -578,7 +588,7 @@
               "coggan_wpkg": 2.6,
               "cp_model_watts": 268,
               "cp_model_wpkg": 3.37,
-              "model_divergence_pct": -35.4
+              "model_divergence_pct": -32.5
             }
           },
           "coverage_ratio": 1.0,
@@ -590,19 +600,19 @@
       },
       "dfa_a1_profile": {
         "latest_session": {
-          "activity_id": "i201202480",
-          "date": "2026-10-24",
-          "name": "P2 W43 HARD 3/3 - Indoor ERG Sweet Spot Evidence Hold 2x30 at 88.5% 86min",
+          "activity_id": "i201625551",
+          "date": "2026-10-25",
+          "name": "P2 W43 - Indoor ERG Long Aerobic Durability 4x25min 2h30",
           "sport": "VirtualRide",
           "validated": true,
-          "avg": 1.017,
+          "avg": 1.304,
           "tiz_split_pct": {
-            "below_lt1": 45.4,
-            "lt1_transition": 53.3,
-            "transition_lt2": 1.3,
+            "below_lt1": 96.4,
+            "lt1_transition": 3.6,
+            "transition_lt2": 0.0,
             "above_lt2": 0.0
           },
-          "drift_delta": 0.012,
+          "drift_delta": -0.047,
           "drift_interpretable": true,
           "quality_pct": 100.0,
           "sufficient": true
@@ -611,41 +621,41 @@
           "cycling": {
             "n_sessions": 7,
             "date_range": [
-              "2026-10-13",
-              "2026-10-24"
+              "2026-10-14",
+              "2026-10-25"
             ],
-            "avg_dfa_a1": 1.185,
-            "drift_delta_mean": -0.09,
+            "avg_dfa_a1": 1.246,
+            "drift_delta_mean": -0.063,
             "lt1_crossing_sessions": 4,
-            "lt2_crossing_sessions": 2,
+            "lt2_crossing_sessions": 1,
             "lt1_estimate": {
-              "hr": 138,
+              "hr": 136,
               "watts_outdoor": null,
-              "watts_indoor": 211,
+              "watts_indoor": 204,
               "n_sessions": 4,
               "n_sessions_outdoor": 0,
               "n_sessions_indoor": 4
             },
             "lt2_estimate": {
-              "hr": 156,
+              "hr": 157,
               "watts_outdoor": null,
-              "watts_indoor": 229,
-              "n_sessions": 2,
+              "watts_indoor": 200,
+              "n_sessions": 1,
               "n_sessions_outdoor": 0,
-              "n_sessions_indoor": 2
+              "n_sessions_indoor": 1
             },
-            "quality_avg_pct": 98.3,
+            "quality_avg_pct": 99.0,
             "validated": true,
             "confidence": "moderate"
           }
         }
       }
     },
-    "consistency_index": 0.67,
+    "consistency_index": 0.83,
     "consistency_details": {
       "planned_days": 6,
-      "completed_days": 4,
-      "matched_days": 4,
+      "completed_days": 5,
+      "matched_days": 5,
       "planned_dates": [
         "2026-10-20",
         "2026-10-21",
@@ -658,7 +668,8 @@
         "2026-10-20",
         "2026-10-21",
         "2026-10-22",
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-25"
       ]
     },
     "phase_detection": {
@@ -713,12 +724,12 @@
     "p_max": 789,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-25T17:33:39.652716",
+    "calculation_timestamp": "2026-10-25T19:59:07.272083",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 4,
-      "activities_28d": 17,
+      "activities_7d": 5,
+      "activities_28d": 18,
       "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 124,
@@ -727,6 +738,97 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i201625551",
+      "date": "2026-10-25T17:59:19",
+      "type": "VirtualRide",
+      "name": "P2 W43 - Indoor ERG Long Aerobic Durability 4x25min 2h30",
+      "duration_hours": 2.5,
+      "distance_km": 68.03,
+      "tss": 118,
+      "intensity_factor": 68.72587,
+      "avg_power": 176,
+      "normalized_power": 178,
+      "avg_hr": 123,
+      "max_hr": 133,
+      "avg_cadence": 89.97413,
+      "avg_speed": 27.2,
+      "avg_speed_unit": "KPH",
+      "max_speed": 30.8,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": 21.61266,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "MPS",
+      "work_kj": 1590.7,
+      "calories": 1806,
+      "carbs_used": 302,
+      "carbs_ingested": 180,
+      "variability_index": 1.0113636,
+      "decoupling": 0.27758226,
+      "efficiency_factor": 1.4471545,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 68.03,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": {
+          "value": 27.2,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 30.8,
+          "unit": "km/h"
+        }
+      },
+      "feel": 3,
+      "rpe": 3,
+      "effort_response": "neutral",
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 8797,
+          "z2_time": 208,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 397,
+          "z2_time": 8309,
+          "z3_time": 292,
+          "z4_time": 6,
+          "z5_time": 1,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": false,
+      "has_dfa": true,
+      "dfa_summary": {
+        "avg": 1.304,
+        "dominant_band": "below_lt1",
+        "tiz_pct": {
+          "below_lt1": 96.4,
+          "lt1_transition": 3.6,
+          "transition_lt2": 0.0,
+          "above_lt2": 0.0
+        },
+        "valid_pct": 100.0,
+        "sufficient": true,
+        "drift_delta": -0.047,
+        "drift_interpretable": true,
+        "lt1_watts": 185,
+        "lt1_hr": 126
+      }
+    },
     {
       "id": "i201202480",
       "date": "2026-10-24T19:18:47",
@@ -2644,7 +2746,7 @@
       "respiration": 13.0,
       "body_fat_pct": 18.4,
       "abdomen_cm": null,
-      "steps": 8015,
+      "steps": 9375,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2659,7 +2761,7 @@
     {
       "id": 143553438,
       "date": "2026-10-25",
-      "name": "P2 W43 - Indoor ERG Aerobic Durability 4x25min 2h30",
+      "name": "P2 W43 - Indoor ERG Long Aerobic Durability 4x25min 2h30",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 119,
@@ -2751,17 +2853,85 @@
       "description": "Macro phase: Phase 2 \u2014 Aerobic base and strength foundation (2026 W37\u2013W44).\n\nSection 11 basis: AE-3 Long Durability Ride, deliberately reduced for consolidation and the Phase 3 handoff.\nAdaptation target: preserve aerobic durability and practiced fueling while reducing duration after repeated clean three-hour loading rides.\n\nProgression classification: CONSOLIDATION. The latest comparable rides were 3h02 and 3h04 at 173 W average with VI 1.017/1.012, decoupling -2.42%/-2.27%, RPE 2 and Feel 2/3. These support durability, but W44 deliberately cuts 30 minutes rather than extending beyond the normal three-hour cap or adding tempo.\n\n- 10m 55-65% FTP\n- 130m 62-72% FTP\n- 10m 50-60% FTP\n\nUse ranges against the current 265 W outdoor FTP; normally settle around 170\u2013180 W rather than chasing the upper edge. Keep RPE 2\u20133, remain genuinely aerobic and avoid repeated threshold climbing. Continue practiced carbohydrate intake, approximately 75\u201390 g/hour as tolerated, from early in the ride. Shorten after adverse W43 response or fresh readiness; do not repay duration.\n\nPrescription-time control: this W44 consolidation dose is written before W43 execution. W43's absence at writing time is not failure evidence, but W44 remains the planned consolidation/P3 handoff regardless of isolated green metrics. Retain the listed reduced dose after normal W43 execution and recovery; if W43 or fresh readiness is adverse, reduce further, substitute easy aerobic work or skip. Do not turn W44 into a fourth loading week.\nReadiness gate: use the fresh Section 11 readiness decision plus new athlete-reported illness, sleep, soreness, pain, coordination and in-session response. Athlete-reported adverse state overrides favorable modeled metrics. Reduce, substitute or skip rather than forcing the dose, and do not repay reduced or missed work."
     },
     {
-      "id": 139523944,
-      "date": "2026-11-02",
-      "name": "P3 W45 SCAFFOLD \u2014 Base Durability / FTP Foundation",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "id": 148152134,
+      "date": "2026-11-03",
+      "name": "P3 W45 HARD 1/2 - Indoor ERG Threshold Re-establishment 2x22 at 102% 80min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 109,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nStatus: provisional weekly architecture scaffold only \u2014 not an exact workout prescription. No hours or training load are assigned by this note.\nArchitecture: preserve the normal approximately eight-hour cycling-plus-running planning centre with strength additional, without using it as a cap, floor or filler requirement. Emphasize progressive sweet-spot duration, aerobic durability, one long ride preferably outdoors, one easy impact-maintenance run and one to two home-first strength sessions only as recovery and recorded strength response support. Introduce VO2/high-cadence aerobic work only after threshold durability is stable. Respect weekday 1h30 and normal weekend 3h ride limits; longer race-specific rides still require prior discussion."
+      "indoor": true,
+      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: TH-1 Classic Threshold Blocks, athlete-adapted to the established two-block ceiling.\nAdaptation target: re-establish the demonstrated loading-week threshold dose after W44 consolidation and under the trainer's new warm-calibration epoch."
+    },
+    {
+      "id": 148152135,
+      "date": "2026-11-04",
+      "name": "P3 W45 - Indoor ERG Easy Aerobic Support 60min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 39,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: AE-1 Steady-State Endurance (Short), adapted to exact indoor ERG targets.\nAdaptation target: add low-cost aerobic density between quality days without creating grey-zone work or compensating for any reduced session."
+    },
+    {
+      "id": 148152136,
+      "date": "2026-11-05",
+      "name": "P3 W45 - Home Strength Viability Hold 35min",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 10,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: individualized home-strength foundation using confirmed pull-up-bar and bodyweight access only.\nAdaptation target: retain one repeatable strength exposure without adding unowned equipment or placing it the day before cycling quality."
+    },
+    {
+      "id": 148152137,
+      "date": "2026-11-06",
+      "name": "P3 W45 - Easy Run \u2014 Impact Maintenance Hold 45min",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 34,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: individualized secondary-sport impact maintenance.\nAdaptation target: preserve impact familiarity without competing with Saturday's cycling quality or Sunday's long ride."
+    },
+    {
+      "id": 148152138,
+      "date": "2026-11-07",
+      "name": "P3 W45 HARD 2/2 - Indoor ERG Sweet Spot Re-establishment 2x32 at 88.5% 90min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 104,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: SS-1 Sustained Sweet Spot Blocks, using an athlete-adapted two-block duration ceiling.\nAdaptation target: re-establish sustained sweet-spot durability in the new trainer-calibration epoch before changing power or global indoor FTP."
+    },
+    {
+      "id": 148152139,
+      "date": "2026-11-08",
+      "name": "P3 W45 - Long Aerobic Durability Hold 3h00",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 131,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: AE-3 Long Durability Ride, held at the normal weekend availability ceiling.\nAdaptation target: preserve repeatable aerobic durability and practiced fueling after two separated quality days without turning the long ride into a third hard day."
     },
     {
       "id": 141413471,
@@ -2801,21 +2971,34 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nStatus: provisional weekly architecture scaffold only \u2014 not an exact workout prescription. No hours or training load are assigned by this note.\nArchitecture: preserve the normal approximately eight-hour cycling-plus-running planning centre with strength additional, without using it as a cap, floor or filler requirement. Continue progressive sweet-spot/threshold durability, one genuinely aerobic long ride preferably outdoors, one easy impact-maintenance run and one to two home-first strength sessions only as current recovery and recorded strength response support. Add a separate VO2/high-aerobic slot only when the completed P2 block and prior P3 response show threshold durability is stable and the dose can remain separated by at least two calendar days. Respect the weekday 1h30 and normal weekend 3h ride limits; longer race-specific rides still require prior discussion."
+    },
+    {
+      "id": 148152141,
+      "date": "2026-11-30",
+      "name": "P3 W49 SCAFFOLD \u2014 Base Durability / FTP Foundation",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nStatus: provisional weekly architecture scaffold only \u2014 not an exact workout prescription. No hours or training load are assigned by this note.\nArchitecture: begin the next roadmap 3:1 loading cycle around the normal approximately eight-hour cycling-plus-running planning centre, with strength additional; the centre is not a cap, floor or filler obligation. Continue two complementary sustained-power quality roles when completed P3 evidence and recovery support them, one genuinely aerobic long ride preferably outdoors, one easy impact-maintenance run and one to two home-first strength sessions only as recorded response supports. A separate VO2/high-aerobic role remains conditional on stable threshold durability and must replace rather than add a quality day. Respect the weekday 1h30 and normal weekend 3h ride limits; longer race-specific rides require prior discussion."
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 9,
     "success": 1,
     "patternA": 0,
     "patternB": 1,
-    "bail_no_workout_doc": 6,
-    "bail_no_match": 4
+    "bail_no_workout_doc": 8,
+    "bail_no_match": 8
   },
   "weekly_summary": {
-    "total_training_hours": 4.82,
-    "total_training_formatted": "4h49m",
-    "total_tss": 329,
-    "activities_count": 4,
+    "total_training_hours": 7.32,
+    "total_training_formatted": "7h19m",
+    "total_tss": 447,
+    "activities_count": 5,
     "avg_hrv": 51.3,
     "avg_resting_hr": 48.7
   },
