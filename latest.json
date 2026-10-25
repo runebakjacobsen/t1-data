@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-25T19:59:07.273019",
+    "last_updated": "2026-10-25T22:28:53.748788",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -724,7 +724,7 @@
     "p_max": 789,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-25T19:59:07.272083",
+    "calculation_timestamp": "2026-10-25T22:28:53.747408",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2855,7 +2855,7 @@
     {
       "id": 148152134,
       "date": "2026-11-03",
-      "name": "P3 W45 HARD 1/2 - Indoor ERG Threshold Re-establishment 2x22 at 102% 80min",
+      "name": "P3 W45 HARD 1/3 - Indoor ERG Threshold Re-establishment 2x22 at 102% 80min",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 109,
@@ -2864,21 +2864,21 @@
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: TH-1 Classic Threshold Blocks, athlete-adapted to the established two-block ceiling.\nAdaptation target: re-establish the demonstrated loading-week threshold dose after W44 consolidation and under the trainer's new warm-calibration epoch."
+      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: TH-1 Classic Threshold Blocks, athlete-adapted to the established two-block ceiling.\nAdaptation target: re-establish the demonstrated loading-week threshold dose after W44 consolidation and under the trainer's new warm-calibration epoch. This is hard day 1 of 3 in the restored Tuesday/Thursday/Saturday loading-week architecture."
     },
     {
       "id": 148152135,
       "date": "2026-11-04",
-      "name": "P3 W45 - Indoor ERG Easy Aerobic Support 60min",
+      "name": "P3 W45 - Optional Indoor Recovery Spin 30min",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 39,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 14,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: AE-1 Steady-State Endurance (Short), adapted to exact indoor ERG targets.\nAdaptation target: add low-cost aerobic density between quality days without creating grey-zone work or compensating for any reduced session."
+      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: AE-4 Active Recovery, adapted to a short exact indoor session between Tuesday and Thursday quality.\nAdaptation target: preserve circulation and routine at negligible recovery cost while supporting the restored three-hard-day loading architecture; this is not Zone 2 volume and not a progression opportunity."
     },
     {
       "id": 148152136,
@@ -2891,7 +2891,20 @@
       "duration_formatted": "35m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: individualized home-strength foundation using confirmed pull-up-bar and bodyweight access only.\nAdaptation target: retain one repeatable strength exposure without adding unowned equipment or placing it the day before cycling quality."
+      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: individualized home-strength foundation using confirmed pull-up-bar and bodyweight access only.\nAdaptation target: retain one repeatable strength exposure on Thursday\u2019s existing cycling hard day without creating another stress day. Perform it only after the VO2 ride and only if movement quality and recovery remain normal."
+    },
+    {
+      "id": 148209552,
+      "date": "2026-11-05",
+      "name": "P3 W45 HARD 2/3 - Indoor NON-ERG VO2 Micro Re-establishment 3x12x30-15 65min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 82,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
+      "workout_summary": "5m @129W | 5m @168W | 5m @194W | 1m @246W | 4m @129W | 12\u00d730s / 15s rec | 4m | 12\u00d730s / 15s rec | 4m | 12\u00d730s / 15s rec | 5m @168W | 5m @129W",
+      "has_terrain": false,
+      "indoor": true
     },
     {
       "id": 148152137,
@@ -2909,7 +2922,7 @@
     {
       "id": 148152138,
       "date": "2026-11-07",
-      "name": "P3 W45 HARD 2/2 - Indoor ERG Sweet Spot Re-establishment 2x32 at 88.5% 90min",
+      "name": "P3 W45 HARD 3/3 - Indoor ERG Sweet Spot Re-establishment 2x32 at 88.5% 90min",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 104,
@@ -2918,7 +2931,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: SS-1 Sustained Sweet Spot Blocks, using an athlete-adapted two-block duration ceiling.\nAdaptation target: re-establish sustained sweet-spot durability in the new trainer-calibration epoch before changing power or global indoor FTP."
+      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: SS-1 Sustained Sweet Spot Blocks, using an athlete-adapted two-block duration ceiling.\nAdaptation target: re-establish sustained sweet-spot durability in the new trainer-calibration epoch before changing power or global indoor FTP. This is hard day 3 of 3, separated by at least 48 hours from Thursday\u2019s VO2 micro session."
     },
     {
       "id": 148152139,
@@ -2931,7 +2944,7 @@
       "duration_formatted": "3h",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: AE-3 Long Durability Ride, held at the normal weekend availability ceiling.\nAdaptation target: preserve repeatable aerobic durability and practiced fueling after two separated quality days without turning the long ride into a third hard day."
+      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: AE-3 Long Durability Ride, held at the normal weekend availability ceiling.\nAdaptation target: preserve repeatable aerobic durability and practiced fueling after three separated quality days without turning the long ride into a fourth hard day."
     },
     {
       "id": 141413471,
@@ -2987,9 +3000,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 9,
-    "success": 1,
-    "patternA": 0,
+    "attempted": 10,
+    "success": 2,
+    "patternA": 1,
     "patternB": 1,
     "bail_no_workout_doc": 8,
     "bail_no_match": 8
