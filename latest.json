@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-27T12:44:22.996168",
+    "last_updated": "2026-10-27T18:22:16.415993",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -251,7 +251,7 @@
       "respiration": 13.0,
       "body_fat_pct": 18.6,
       "abdomen_cm": null,
-      "steps": 1178,
+      "steps": 3398,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -678,7 +678,7 @@
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 1,
           "race_proximity": null,
-          "next_week_load": 1.09,
+          "next_week_load": 1.04,
           "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 1.4
         },
@@ -713,7 +713,7 @@
     "p_max": 789,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-27T12:44:22.995404",
+    "calculation_timestamp": "2026-10-27T18:22:16.414642",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2644,7 +2644,7 @@
       "respiration": 13.0,
       "body_fat_pct": 18.6,
       "abdomen_cm": null,
-      "steps": 1178,
+      "steps": 3398,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2739,21 +2739,21 @@
     {
       "id": 148152134,
       "date": "2026-11-03",
-      "name": "P3 W45 HARD 1/3 - Indoor ERG Threshold Re-establishment 2x22 at 102% 80min",
+      "name": "P3 W45 HARD 1/3 - Indoor ERG TH-1 Threshold 2x20 at 104% 75min",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 109,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
+      "planned_tss": 104,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\n\nSection 11 basis: TH-1 Classic Threshold Blocks, athlete-adapted to the established two-block ceiling.\nAdaptation target: re-establish the demonstrated loading-week threshold dose after W44 consolidation and under the trainer's new warm-calibration epoch. This is hard day 1 of 3 in the restored Tuesday/Thursday/Saturday loading-week architecture.\n\nProgression classification: HOLD / RE-ESTABLISHMENT, not progression. W43 completed 2 x 22 at 263/263 W with stable cadence (96.1/96.4 rpm), modest HR progression (150/153 bpm), RPE 7 and Feel 2, but that threshold session preceded the warm trainer calibration. W44 deliberately reduces the dose to 2 x 15 at the same percentage. W45 returns to the last demonstrated loading dose without adding work or intensity; fresh execution supplies the first directly comparable post-calibration threshold evidence. Current prescription-time RI is 0.78 and HRV is 18.1% below its seven-day baseline, so Section 11's formal progression gate is not met.\n\nTemplate-ceiling audit \u2014 template TH-1; canonical structure 2 x 20 or 3 x 12 with 36\u201340 minutes work; practical 90-minute weekday ceiling permits at most 60 work minutes after a 15-minute warm-up, mandatory 5-minute recovery and minimum 10-minute cooldown; individualized ceiling 44 minutes from completed 2 x 22 threshold sessions; current loading dose 44 minutes at 102%; proposed work dose 44 minutes at 102%; active progression variable none (return from consolidation to established loading dose); one-variable check PASS. The adapted 44-minute dose exceeds the canonical work range by four minutes but stays within the documented successful individualized ceiling and availability ceiling.\n\n- 5m 55% FTP\n- 5m 70% FTP\n- 5m 80% FTP\n- 22m 102% FTP\n- 5m 50% FTP\n- 22m 102% FTP\n- 5m 65% FTP\n- 11m 55% FTP\n\nIndoor ERG steady steps use one exact target against the current 259 W indoor FTP; 102% resolves to approximately 264 W. Keep cadence controlled and expect RPE about 7\u20138. Do not increase trainer intensity if it feels easy. If the calibrated resistance feels unexpectedly high, reduce both work blocks to 100% or stop the quality work rather than forcing completion.\n\nPrescription-time control: this first P3 loading week is written before W44 consolidation is executed. W44's absence at writing time is not failure evidence. Retain the listed loading dose only after normal W44 execution/recovery and supportive fresh readiness; otherwise repeat the last clean lower step, reduce, substitute or skip. W44's deliberately reduced work is not evidence that the preceding loading dose failed.\nReadiness gate: use the fresh Section 11 readiness decision on the day plus new athlete-reported illness, sleep, soreness, pain, coordination and in-session response. Athlete-reported adverse state overrides favorable modeled metrics. Reduce, substitute or skip rather than forcing the dose, and do not repay reduced or missed work."
+      "description": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03). Standard Section 11 workout-library templates, no custom extensions.\n\nSection 11 basis: TH-1 Classic Threshold Blocks \u2014 canonical 2 x 20 with 5\u20138 min recovery, 40 min work. No adaptation.\nAdaptation target: FTP/MLSS elevation. Hard day 1 of 3.\n\nProgression: intensity. Previous threshold work was a custom 2 x 22 at 102% (~264 W, RPE 7, no fade). This returns to the standard template length and raises the target to 104% (~269 W against the 259 W indoor FTP).\nDecision rule from W44 Tuesday 2 x 15: if that session was clean (stable power, RPE 6 or lower, no fade), ride 104%; otherwise the target is 102% (~264 W). The one-shot review on 28 Oct sets the final target.\nFTP rule: if both blocks hold ~104% at RPE 8 or lower and block 2 is within 3% of block 1, raise indoor FTP toward the held level (~265\u2013268 W) and rebase all targets.\n\n- 5m 55% FTP\n- 5m 70% FTP\n- 5m 80% FTP\n- 20m 104% FTP\n- 8m 50% FTP\n- 20m 104% FTP\n- 5m 65% FTP\n- 7m 55% FTP\n\nERG, one exact target per step. Expect RPE 8\u20139 (TH-1). If block 2 cannot stay within 3% of block 1, the target is too high: drop to 100\u2013102% rather than stopping early.\nReadiness gate: use the fresh Section 11 readiness decision on the day plus new athlete-reported illness, sleep, soreness, pain, coordination and in-session response. Athlete-reported adverse state overrides favorable modeled metrics. Reduce, substitute or skip rather than forcing the dose, and do not repay reduced or missed work."
     },
     {
       "id": 148152135,
       "date": "2026-11-04",
-      "name": "P3 W45 - Optional Indoor Recovery Spin 30min",
+      "name": "P3 W45 - Indoor Recovery Spin 30min",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 14,
@@ -2762,7 +2762,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: AE-4 Active Recovery, adapted to a short exact indoor session between Tuesday and Thursday quality.\nAdaptation target: preserve circulation and routine at negligible recovery cost while supporting the restored three-hard-day loading architecture; this is not Zone 2 volume and not a progression opportunity."
+      "description_preview": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03).\nSection 11 basis: AE-4 Active Recovery, adapted to a short exact indoor session between Tuesday and Thursday quality.\nAdaptation target: preserve circulation and routine at negligible recovery cost while supporting the restored three-hard-day loading architecture; this is not Zone 2 volume and not a progression opportunity."
     },
     {
       "id": 148152136,
@@ -2775,18 +2775,18 @@
       "duration_formatted": "35m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: individualized home-strength foundation using confirmed pull-up-bar and bodyweight access only.\nAdaptation target: retain one repeatable strength exposure on Thursday\u2019s existing cycling hard day without creating another stress day. Perform it only after the VO2 ride and only if movement quality and recovery remain normal."
+      "description_preview": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03).\nSection 11 basis: individualized home-strength foundation using confirmed pull-up-bar and bodyweight access only.\nAdaptation target: retain one repeatable strength exposure on Thursday\u2019s existing cycling hard day without creating another stress day. Perform it only after the VO2 ride and only if movement quality and recovery remain normal."
     },
     {
       "id": 148209552,
       "date": "2026-11-05",
-      "name": "P3 W45 HARD 2/3 - Indoor NON-ERG VO2 Micro Re-establishment 3x12x30-15 65min",
+      "name": "P3 W45 HARD 2/3 - Indoor NON-ERG VO2-5 3x13x30-15 89min",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 82,
-      "duration_hours": 1.08,
-      "duration_formatted": "1h5m",
-      "workout_summary": "5m @129W | 5m @168W | 5m @194W | 1m @246W | 4m @129W | 12\u00d730s / 15s rec | 4m | 12\u00d730s / 15s rec | 4m | 12\u00d730s / 15s rec | 5m @168W | 5m @129W",
+      "planned_tss": 95,
+      "duration_hours": 1.49,
+      "duration_formatted": "1h29m15s",
+      "workout_summary": "5m @129W | 5m @168W | 5m @194W | 1m @246W | 4m @129W | 13\u00d730s / 15s rec | 5m | 13\u00d730s / 15s rec | 5m | 13\u00d730s / 15s rec | 10m @155W | 20m @129W",
       "has_terrain": false,
       "indoor": true
     },
@@ -2801,26 +2801,25 @@
       "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: individualized secondary-sport impact maintenance.\nAdaptation target: preserve impact familiarity without competing with Saturday's cycling quality or Sunday's long ride."
+      "description_preview": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03).\nSection 11 basis: individualized secondary-sport impact maintenance.\nAdaptation target: preserve impact familiarity without competing with Saturday's cycling quality or Sunday's long ride."
     },
     {
       "id": 148152138,
       "date": "2026-11-07",
-      "name": "P3 W45 HARD 3/3 - Indoor ERG Sweet Spot Re-establishment 2x32 at 88.5% 90min",
+      "name": "P3 W45 HARD 3/3 - Indoor ERG SS-3 Over-Unders 3x9 67min",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 104,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
+      "planned_tss": 76,
+      "duration_hours": 1.12,
+      "duration_formatted": "1h7m",
+      "workout_summary": "5m @142W | 5m @181W | 5m @207W | 3\u00d72m @243W / 1m rec | 5m @129W | 3\u00d72m @243W / 1m rec | 5m @129W | 3\u00d72m @243W / 1m rec | 5m @168W | 10m @142W",
       "has_terrain": false,
-      "indoor": true,
-      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: SS-1 Sustained Sweet Spot Blocks, using an athlete-adapted two-block duration ceiling.\nAdaptation target: re-establish sustained sweet-spot durability in the new trainer-calibration epoch before changing power or global indoor FTP. This is hard day 3 of 3, separated by at least 48 hours from Thursday\u2019s VO2 micro session."
+      "indoor": true
     },
     {
       "id": 148152139,
       "date": "2026-11-08",
-      "name": "P3 W45 - Long Aerobic Durability Hold 3h00",
+      "name": "P3 W45 - AE-3 Long Durability Ride 3h00",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 131,
@@ -2828,12 +2827,12 @@
       "duration_formatted": "3h",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nSection 11 basis: AE-3 Long Durability Ride, held at the normal weekend availability ceiling.\nAdaptation target: preserve repeatable aerobic durability and practiced fueling after three separated quality days without turning the long ride into a fourth hard day."
+      "description_preview": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03).\nSection 11 basis: AE-3 Long Durability Ride, held at the normal weekend availability ceiling.\nAdaptation target: preserve repeatable aerobic durability and practiced fueling after three separated quality days without turning the long ride into a fourth hard day."
     },
     {
       "id": 141413471,
       "date": "2026-11-09",
-      "name": "P3 W46 SCAFFOLD \u2014 Base Durability / FTP Foundation",
+      "name": "P3 W46 PLAN \u2014 FTP block 1, loading 2",
       "type": "NOTE",
       "sport_type": null,
       "planned_tss": null,
@@ -2841,12 +2840,12 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nStatus: provisional weekly architecture scaffold only \u2014 not an exact workout prescription. No hours or training load are assigned by this note.\nArchitecture: preserve the normal approximately eight-hour cycling-plus-running planning centre with strength additional, without using it as a cap, floor or filler requirement. Continue progressive sweet-spot/threshold durability, one genuinely aerobic long ride preferably outdoors, one easy impact-maintenance run and one to two home-first strength sessions only as current recovery and recorded strength response support. Add a separate VO2/high-aerobic slot only when the completed P2 block and W45 response show threshold durability is stable and the dose can remain separated by at least two calendar days. Respect the weekday 1h30 and normal weekend 3h ride limits; longer race-specific rides still require prior discussion."
+      "description_preview": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03).\nStatus: provisional weekly plan \u2014 exact workouts are written 7\u201314 days ahead from executed evidence. Standard Section 11 templates only; each progresses by its own rule, one variable at a time. Committed cycling+running excludes optional sessions and strength.\nLoading week 2 of 3, ~8h committed."
     },
     {
       "id": 143553439,
       "date": "2026-11-16",
-      "name": "P3 W47 SCAFFOLD \u2014 Base Durability / FTP Foundation",
+      "name": "P3 W47 PLAN \u2014 FTP block 1, loading 3",
       "type": "NOTE",
       "sport_type": null,
       "planned_tss": null,
@@ -2854,12 +2853,12 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nStatus: provisional weekly architecture scaffold only \u2014 not an exact workout prescription. No hours or training load are assigned by this note.\nArchitecture: preserve the normal approximately eight-hour cycling-plus-running planning centre with strength additional, without using it as a cap, floor or filler requirement. Continue progressive sweet-spot/threshold durability, one genuinely aerobic long ride preferably outdoors, one easy impact-maintenance run and one to two home-first strength sessions only as current recovery and recorded strength response support. Add a separate VO2/high-aerobic slot only when the completed P2 block and W45\u2013W46 response show threshold durability is stable and the dose can remain separated by at least two calendar days. Respect the weekday 1h30 and normal weekend 3h ride limits; longer race-specific rides still require prior discussion."
+      "description_preview": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03).\nStatus: provisional weekly plan \u2014 exact workouts are written 7\u201314 days ahead from executed evidence. Standard Section 11 templates only; each progresses by its own rule, one variable at a time. Committed cycling+running excludes optional sessions and strength.\nLoading week 3 of 3, ~8h committed; the block's strongest evidence week."
     },
     {
       "id": 145812563,
       "date": "2026-11-23",
-      "name": "P3 W48 SCAFFOLD \u2014 Base Durability / FTP Foundation",
+      "name": "P3 W48 PLAN \u2014 consolidation + block review",
       "type": "NOTE",
       "sport_type": null,
       "planned_tss": null,
@@ -2867,12 +2866,12 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nStatus: provisional weekly architecture scaffold only \u2014 not an exact workout prescription. No hours or training load are assigned by this note.\nArchitecture: preserve the normal approximately eight-hour cycling-plus-running planning centre with strength additional, without using it as a cap, floor or filler requirement. Continue progressive sweet-spot/threshold durability, one genuinely aerobic long ride preferably outdoors, one easy impact-maintenance run and one to two home-first strength sessions only as current recovery and recorded strength response support. Add a separate VO2/high-aerobic slot only when the completed P2 block and prior P3 response show threshold durability is stable and the dose can remain separated by at least two calendar days. Respect the weekday 1h30 and normal weekend 3h ride limits; longer race-specific rides still require prior discussion."
+      "description_preview": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03).\nStatus: provisional weekly plan \u2014 exact workouts are written 7\u201314 days ahead from executed evidence. Standard Section 11 templates only; each progresses by its own rule, one variable at a time. Committed cycling+running excludes optional sessions and strength.\nConsolidation: one shortened quality touch \u2014 TH-1 with interval count reduced (2x12, Section 11 truncation rule 3). No VO2."
     },
     {
       "id": 148152141,
       "date": "2026-11-30",
-      "name": "P3 W49 SCAFFOLD \u2014 Base Durability / FTP Foundation",
+      "name": "P3 W49 PLAN \u2014 FTP block 2, loading 1",
       "type": "NOTE",
       "sport_type": null,
       "planned_tss": null,
@@ -2880,16 +2879,29 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Macro phase: Phase 3 \u2014 Base durability and FTP foundation (2026-11-02 to 2027-01-03).\nStatus: provisional weekly architecture scaffold only \u2014 not an exact workout prescription. No hours or training load are assigned by this note.\nArchitecture: begin the next roadmap 3:1 loading cycle around the normal approximately eight-hour cycling-plus-running planning centre, with strength additional; the centre is not a cap, floor or filler obligation. Continue two complementary sustained-power quality roles when completed P3 evidence and recovery support them, one genuinely aerobic long ride preferably outdoors, one easy impact-maintenance run and one to two home-first strength sessions only as recorded response supports. A separate VO2/high-aerobic role remains conditional on stable threshold durability and must replace rather than add a quality day. Respect the weekday 1h30 and normal weekend 3h ride limits; longer race-specific rides require prior discussion."
+      "description_preview": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03).\nStatus: provisional weekly plan \u2014 exact workouts are written 7\u201314 days ahead from executed evidence. Standard Section 11 templates only; each progresses by its own rule, one variable at a time. Committed cycling+running excludes optional sessions and strength.\nSet by the W48 verdict. Likely direction, using standard templates:"
+    },
+    {
+      "id": 148897091,
+      "date": "2026-12-07",
+      "name": "P3 W50 PLAN \u2014 FTP block 2, loading 2",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03).\nStatus: provisional weekly plan \u2014 exact workouts are written 7\u201314 days ahead from executed evidence. Standard Section 11 templates only; each progresses by its own rule, one variable at a time. Committed cycling+running excludes optional sessions and strength.\nLoading week 2 of block 2, ~8h committed. Progress each W49 template by one variable (TH-2 4x8 -> 5x8; VO2 power or recovery; third session duration). Sunday AE-6 fast-finish, 90 g/h."
     }
   ],
   "workout_summary_stats": {
     "attempted": 9,
-    "success": 1,
-    "patternA": 1,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
-    "bail_no_workout_doc": 8,
-    "bail_no_match": 8
+    "bail_no_workout_doc": 9,
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 6.09,
