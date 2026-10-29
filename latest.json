@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-29T13:34:14.431910",
+    "last_updated": "2026-10-29T19:14:54.683027",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -261,7 +261,7 @@
       "respiration": 14.0,
       "body_fat_pct": 18.5,
       "abdomen_cm": null,
-      "steps": 1238,
+      "steps": 4935,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -686,7 +686,7 @@
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 1,
           "race_proximity": null,
-          "next_week_load": 0.96,
+          "next_week_load": 1.11,
           "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 1.2
         },
@@ -721,7 +721,7 @@
     "p_max": 789,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-29T13:34:14.431190",
+    "calculation_timestamp": "2026-10-29T19:14:54.682283",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2711,7 +2711,7 @@
       "respiration": 14.0,
       "body_fat_pct": 18.5,
       "abdomen_cm": null,
-      "steps": 1238,
+      "steps": 4935,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2796,7 +2796,7 @@
       "name": "P3 W45 HARD 2/3 - Indoor NON-ERG VO2-5 3x13x30-15 89min",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 39,
+      "planned_tss": 100,
       "duration_hours": 1.49,
       "duration_formatted": "1h29m15s",
       "workout_summary": "5m @129W | 5m @168W | 5m @194W | 1m @246W | 4m @129W | 13\u00d730s / 15s rec | 5m | 13\u00d730s / 15s rec | 5m | 13\u00d730s / 15s rec | 10m @155W | 20m @129W",
