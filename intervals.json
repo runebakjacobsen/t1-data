@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T16:36:42.687884",
+  "generated_at": "2026-10-30T21:05:32.094567",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1624,6 +1624,140 @@
           "total_secs": 4202,
           "valid_pct": 99.9,
           "artifact_rate_avg": 0.27,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i203663375",
+      "date": "2026-10-30",
+      "type": "Run",
+      "name": "P2 W44 - Easy Run \u2014 Impact Maintenance Hold 45min",
+      "interval_summary": [
+        "7x 6m27s 128bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "387s@128bpm79rpm",
+          "duration_secs": 400,
+          "avg_hr": 127,
+          "max_hr": 139,
+          "avg_cadence": 77.1725,
+          "zone": 1,
+          "avg_dfa_a1": 0.4869157
+        },
+        {
+          "type": "WORK",
+          "label": "387s@128bpm79rpm",
+          "duration_secs": 387,
+          "avg_hr": 129,
+          "max_hr": 137,
+          "avg_cadence": 79.10853,
+          "zone": 1,
+          "avg_dfa_a1": 0.5740417
+        },
+        {
+          "type": "WORK",
+          "label": "387s@128bpm79rpm",
+          "duration_secs": 391,
+          "avg_hr": 128,
+          "max_hr": 132,
+          "avg_cadence": 79.22762,
+          "zone": 1,
+          "avg_dfa_a1": 0.49080274
+        },
+        {
+          "type": "WORK",
+          "label": "387s@128bpm79rpm",
+          "duration_secs": 386,
+          "avg_hr": 128,
+          "max_hr": 132,
+          "avg_cadence": 79.07772,
+          "zone": 1,
+          "avg_dfa_a1": 0.5726807
+        },
+        {
+          "type": "WORK",
+          "label": "387s@128bpm79rpm",
+          "duration_secs": 389,
+          "avg_hr": 128,
+          "max_hr": 132,
+          "avg_cadence": 79.50128,
+          "zone": 1,
+          "avg_dfa_a1": 0.5525164
+        },
+        {
+          "type": "WORK",
+          "label": "387s@128bpm79rpm",
+          "duration_secs": 384,
+          "avg_hr": 128,
+          "max_hr": 133,
+          "avg_cadence": 79.17969,
+          "zone": 1,
+          "avg_dfa_a1": 0.5588973
+        },
+        {
+          "type": "WORK",
+          "label": "387s@128bpm79rpm",
+          "duration_secs": 372,
+          "avg_hr": 127,
+          "max_hr": 136,
+          "avg_cadence": 78.56989,
+          "zone": 1,
+          "avg_dfa_a1": 0.570619
+        }
+      ],
+      "dfa": {
+        "avg": 0.572,
+        "p25": 0.499,
+        "p50": 0.556,
+        "p75": 0.621,
+        "tiz_below_lt1": {
+          "secs": 12,
+          "pct": 0.5,
+          "avg_hr": 132,
+          "avg_watts": 283
+        },
+        "tiz_lt1_transition": {
+          "secs": 163,
+          "pct": 6.3,
+          "avg_hr": 128,
+          "avg_watts": 294
+        },
+        "tiz_transition_lt2": {
+          "secs": 1747,
+          "pct": 67.8,
+          "avg_hr": 129,
+          "avg_watts": 299
+        },
+        "tiz_above_lt2": {
+          "secs": 653,
+          "pct": 25.4,
+          "avg_hr": 128,
+          "avg_watts": 296
+        },
+        "drift": {
+          "first_third_avg": 0.614,
+          "last_third_avg": 0.562,
+          "delta": -0.052,
+          "interpretable": false
+        },
+        "lt1_crossing": {
+          "secs_in_band": 4,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "lt2_crossing": {
+          "secs_in_band": 930,
+          "avg_hr": 129,
+          "avg_watts": 296
+        },
+        "quality": {
+          "valid_secs": 2575,
+          "total_secs": 2709,
+          "valid_pct": 95.1,
+          "artifact_rate_avg": 0.17,
           "sufficient": true
         }
       }
