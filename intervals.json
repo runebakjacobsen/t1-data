@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T06:50:23.838995",
+  "generated_at": "2026-10-31T13:29:29.136186",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1758,6 +1758,71 @@
           "total_secs": 2709,
           "valid_pct": 95.1,
           "artifact_rate_avg": 0.17,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i203918721",
+      "date": "2026-10-31",
+      "type": "Ride",
+      "name": "P2 W44 CONSOLIDATION - Outdoor Aerobic Maintenance 60min",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3710,
+          "avg_power": 170,
+          "max_power": 317,
+          "avg_hr": 123,
+          "max_hr": 137,
+          "avg_cadence": 85.385086,
+          "zone": 2,
+          "training_load": 43.508053,
+          "decoupling": -2.9188359,
+          "avg_dfa_a1": 1.0045444
+        }
+      ],
+      "dfa": {
+        "avg": 0.992,
+        "p25": 0.958,
+        "p50": 0.958,
+        "p75": 0.958,
+        "tiz_below_lt1": {
+          "secs": 552,
+          "pct": 15.8,
+          "avg_hr": 130,
+          "avg_watts": 170
+        },
+        "tiz_lt1_transition": {
+          "secs": 2931,
+          "pct": 84.2,
+          "avg_hr": 122,
+          "avg_watts": 172
+        },
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": {
+          "first_third_avg": 1.059,
+          "last_third_avg": 0.958,
+          "delta": -0.101,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 2959,
+          "avg_hr": 122,
+          "avg_watts": 171
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 3483,
+          "total_secs": 3612,
+          "valid_pct": 96.4,
+          "artifact_rate_avg": 0.33,
           "sufficient": true
         }
       }
