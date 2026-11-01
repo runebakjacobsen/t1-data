@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-01T13:48:50.512005",
+    "last_updated": "2026-11-01T18:48:52.054424",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -275,7 +275,7 @@
       "respiration": 14.0,
       "body_fat_pct": 18.4,
       "abdomen_cm": null,
-      "steps": 2498,
+      "steps": 4179,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -752,7 +752,7 @@
     "p_max": 786,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-01T13:48:50.511042",
+    "calculation_timestamp": "2026-11-01T18:48:52.053053",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2769,7 +2769,7 @@
       "respiration": 14.0,
       "body_fat_pct": 18.4,
       "abdomen_cm": null,
-      "steps": 2498,
+      "steps": 4179,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2877,17 +2877,84 @@
       "description": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03).\n\nSection 11 basis: AE-3 Long Durability Ride, held at the normal weekend availability ceiling.\nAdaptation target: preserve repeatable aerobic durability and practiced fueling after three separated quality days without turning the long ride into a fourth hard day.\n\nProgression classification: HOLD. The latest directly comparable completed rides were 3h02 and 3h04 at 173 W average, VI 1.017/1.012, decoupling -2.42%/-2.27%, RPE 2 and Feel 2/3, with 89/66 g carbohydrate per hour. These support the established three-hour dose. Section 11's duration pathway cannot extend it because the normal family/weekend ceiling is already reached, and the current prescription-time RI/HRV gate does not support adding aerobic power. Hold duration and intensity; do not add a tempo finish.\n\n- 10m 55-65% FTP\n- 160m 62-72% FTP\n- 10m 50-60% FTP\n\nUse ranges against the current 265 W outdoor FTP. Normally settle around 170\u2013180 W rather than chasing the upper edge. Keep RPE 2\u20133, stay genuinely aerobic and avoid repeated threshold climbing. Fuel at the 90 g/hour race target from the first 20 minutes; record grams taken. If weather or access forces an indoor substitution, preserve the 3-hour ceiling and easy purpose; do not copy outdoor ranges into ERG without a separately verified exact indoor workout.\n\nPrescription-time control: this first P3 loading week is written before W44 consolidation is executed. W44's absence at writing time is not failure evidence. Retain the listed loading dose only after normal W44 execution/recovery and supportive fresh readiness; otherwise repeat the last clean lower step, reduce, substitute or skip. W44's deliberately reduced work is not evidence that the preceding loading dose failed.\nReadiness gate: use the fresh Section 11 readiness decision on the day plus new athlete-reported illness, sleep, soreness, pain, coordination and in-session response. Athlete-reported adverse state overrides favorable modeled metrics. Reduce, substitute or skip rather than forcing the dose, and do not repay reduced or missed work."
     },
     {
-      "id": 141413471,
-      "date": "2026-11-09",
-      "name": "P3 W46 PLAN \u2014 FTP block 1, loading 2",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "id": 150702810,
+      "date": "2026-11-10",
+      "name": "P3 W46 HARD 1/3 - Indoor ERG TH-1 Threshold 2x20 at 104% rec 6min 73min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 1.22,
+      "duration_formatted": "1h13m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03).\nStatus: provisional weekly plan \u2014 exact workouts are written 7\u201314 days ahead from executed evidence. Standard Section 11 templates only; each progresses by its own rule, one variable at a time. Committed cycling+running excludes optional sessions and strength.\nLoading week 2 of 3, ~8h committed."
+      "indoor": true,
+      "description_preview": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03). Standard Section 11 workout-library templates, no custom extensions.\nSection 11 basis: TH-1 Classic Threshold Blocks \u2014 canonical 2 x 20 min, 5\u20138 min Z1 recovery, 36\u201340 min work. No adaptation.\nAdaptation target: FTP/MLSS elevation. Hard day 1 of 3."
+    },
+    {
+      "id": 150702812,
+      "date": "2026-11-11",
+      "name": "P3 W46 - Indoor ERG Easy Aerobic Support 60min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 39,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03). Standard Section 11 workout-library templates, no custom extensions.\nSection 11 basis: AE-1 Steady-State Endurance (Short), exact indoor ERG targets.\nAdaptation target: low-cost aerobic density between Tuesday threshold and Thursday VO2 without grey-zone work."
+    },
+    {
+      "id": 150702813,
+      "date": "2026-11-12",
+      "name": "P3 W46 HARD 2/3 - Indoor NON-ERG VO2-5 3x13x30-15 ON 325-335W 89min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 102,
+      "duration_hours": 1.49,
+      "duration_formatted": "1h29m15s",
+      "workout_summary": "5m @129W | 5m @168W | 5m @194W | 1m @246W | 4m @129W | 13\u00d730s / 15s rec | 5m | 13\u00d730s / 15s rec | 5m | 13\u00d730s / 15s rec | 10m @155W | 20m @129W",
+      "has_terrain": false,
+      "indoor": true
+    },
+    {
+      "id": 150702814,
+      "date": "2026-11-13",
+      "name": "P3 W46 - Easy Run \u2014 Impact Maintenance Hold 45min",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 43,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03).\nSection 11 basis: individualized secondary-sport impact maintenance.\nAdaptation target: preserve impact familiarity without competing with Saturday's cycling quality or Sunday's long ride."
+    },
+    {
+      "id": 150702815,
+      "date": "2026-11-14",
+      "name": "P3 W46 HARD 3/3 - Indoor ERG SS-3 Over-Unders 4x9 76min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 91,
+      "duration_hours": 1.27,
+      "duration_formatted": "1h16m",
+      "workout_summary": "5m @142W | 5m @181W | 5m @207W | 3\u00d72m @243W / 1m rec | 5m @129W | 3\u00d72m @243W / 1m rec | 5m @129W | 3\u00d72m @243W / 1m rec | 5m @129W | 3\u00d72m @243W / 1m rec | 5m @168W | 5m @142W",
+      "has_terrain": false,
+      "indoor": true
+    },
+    {
+      "id": 150702816,
+      "date": "2026-11-15",
+      "name": "P3 W46 - AE-3 Long Durability Ride 3h00",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 131,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03).\nSection 11 basis: AE-3 Long Durability Ride, at the normal 3 h weekend ceiling.\nAdaptation target: aerobic durability and race-rate fueling practice after three separated quality days, without becoming a fourth hard day."
     },
     {
       "id": 143553439,
@@ -2943,12 +3010,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
-    "success": 2,
-    "patternA": 2,
+    "attempted": 11,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 6,
-    "bail_no_match": 4
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 5.47,
