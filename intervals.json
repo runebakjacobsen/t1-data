@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T06:40:29.397994",
+  "generated_at": "2026-11-01T13:48:49.766506",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1823,6 +1823,71 @@
           "total_secs": 3612,
           "valid_pct": 96.4,
           "artifact_rate_avg": 0.33,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i204341347",
+      "date": "2026-11-01",
+      "type": "Ride",
+      "name": "P2 W44 CONSOLIDATION - Long Aerobic Ride 2h30",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 9765,
+          "avg_power": 175,
+          "max_power": 392,
+          "avg_hr": 125,
+          "max_hr": 135,
+          "avg_cadence": 86.12798,
+          "zone": 2,
+          "training_load": 113.36485,
+          "decoupling": 1.8252962,
+          "avg_dfa_a1": 1.2979465
+        }
+      ],
+      "dfa": {
+        "avg": 1.295,
+        "p25": 1.194,
+        "p50": 1.289,
+        "p75": 1.395,
+        "tiz_below_lt1": {
+          "secs": 8855,
+          "pct": 98.2,
+          "avg_hr": 126,
+          "avg_watts": 176
+        },
+        "tiz_lt1_transition": {
+          "secs": 164,
+          "pct": 1.8,
+          "avg_hr": 127,
+          "avg_watts": 167
+        },
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": {
+          "first_third_avg": 1.222,
+          "last_third_avg": 1.361,
+          "delta": 0.139,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 329,
+          "avg_hr": 127,
+          "avg_watts": 171
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 9019,
+          "total_secs": 9146,
+          "valid_pct": 98.6,
+          "artifact_rate_avg": 0.29,
           "sufficient": true
         }
       }
