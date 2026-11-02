@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-02T09:11:00.054372",
+    "last_updated": "2026-11-02T19:31:34.799805",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -275,7 +275,7 @@
       "respiration": 14.0,
       "body_fat_pct": 18.3,
       "abdomen_cm": null,
-      "steps": 679,
+      "steps": 4739,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -752,7 +752,7 @@
     "p_max": 786,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-02T09:11:00.052350",
+    "calculation_timestamp": "2026-11-02T19:31:34.798437",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2769,7 +2769,7 @@
       "respiration": 14.0,
       "body_fat_pct": 18.3,
       "abdomen_cm": null,
-      "steps": 679,
+      "steps": 4739,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2792,6 +2792,7 @@
       "duration_formatted": "1h15m",
       "workout_summary": null,
       "has_terrain": false,
+      "start_time": "19:30",
       "indoor": true,
       "description": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03). Standard Section 11 workout-library templates, no custom extensions.\n\nSection 11 basis: TH-1 Classic Threshold Blocks \u2014 canonical 2 x 20 with 5\u20138 min recovery, 40 min work. No adaptation.\nAdaptation target: FTP/MLSS elevation. Hard day 1 of 3.\n\nProgression: intensity. Previous threshold work was a custom 2 x 22 at 102% (~264 W, RPE 7, no fade). This returns to the standard template length and raises the target to 104% (~269 W against the 259 W indoor FTP).\nDecision rule from W44 Tuesday 2 x 15: if that session was clean (stable power, RPE 6 or lower, no fade), ride 104%; otherwise the target is 102% (~264 W). The one-shot review on 28 Oct sets the final target.\nFTP rule: if both blocks hold ~104% at RPE 8 or lower and block 2 is within 3% of block 1, raise indoor FTP toward the held level (~265\u2013268 W) and rebase all targets.\n\n- 5m 55% FTP\n- 5m 70% FTP\n- 5m 80% FTP\n- 20m 104% FTP\n- 8m 50% FTP\n- 20m 104% FTP\n- 5m 65% FTP\n- 7m 55% FTP\n\nERG, one exact target per step. Expect RPE 8\u20139 (TH-1). If block 2 cannot stay within 3% of block 1, the target is too high: drop to 100\u2013102% rather than stopping early.\nReadiness gate: use the fresh Section 11 readiness decision on the day plus new athlete-reported illness, sleep, soreness, pain, coordination and in-session response. Athlete-reported adverse state overrides favorable modeled metrics. Reduce, substitute or skip rather than forcing the dose, and do not repay reduced or missed work."
     },
@@ -2806,6 +2807,7 @@
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
+      "start_time": "19:30",
       "indoor": true,
       "description": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03).\n\nSection 11 basis: AE-1 Steady-State Endurance (Short), adapted to exact indoor ERG targets.\nAdaptation target: low-cost aerobic density between Tuesday threshold and Thursday VO2 without creating grey-zone work.\n\nProgression classification: ATHLETE-REQUESTED DURATION RESTORATION (2026-10-28). Replaces the 30-minute AE-4 recovery spin with the previously demonstrated 60-minute easy aerobic support format. Strength is paused, so total weekly time is roughly unchanged. Not a progression opportunity; no fast finish.\n\n- 10m 55% FTP\n- 40m 65% FTP\n- 10m 55% FTP\n\nIndoor ERG steps use exact percentages against the current 259 W indoor FTP (\u2248142 W / 168 W / 142 W). Keep RPE 1\u20132, conversational breathing and smooth self-selected cadence. If Tuesday leaves abnormal fatigue, shorten to 30\u201340 minutes or rest; do not repay omitted time.\n\nReadiness gate: use the fresh Section 11 decision plus new athlete-reported illness, sleep, soreness, pain, coordination and in-session response. Athlete-reported adverse state overrides favorable modeled metrics. Skip rather than forcing the dose."
     },
@@ -2820,6 +2822,7 @@
       "duration_formatted": "1h29m15s",
       "workout_summary": "5m @129W | 5m @168W | 5m @194W | 1m @246W | 4m @129W | 13\u00d730s / 15s rec | 5m | 13\u00d730s / 15s rec | 5m | 13\u00d730s / 15s rec | 10m @155W | 20m @129W",
       "has_terrain": false,
+      "start_time": "19:30",
       "indoor": true,
       "description": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03). Standard Section 11 workout-library templates, no custom extensions.\n\nSection 11 basis: VO2-5 High-Volume Short-Short (30/15) \u2014 canonical 3 sets x 13 reps, 5 min Z1 between sets, extended ~30 min Z1 cooldown. No adaptation.\nAdaptation target: VO2max / aerobic ceiling. Hard day 2 of 3.\n\nProgression: repetition count, the template's own step from VO2-2. W43 completed 3 x 12 at 320\u2013330 W ON (RPE 7, Feel 2, no late fade). ON/FLOAT power is unchanged; only reps rise 12 -> 13. Next step once clean: ON power +10 W.\nKey indicator (VO2-5): power quality in set 3. If set 3 cannot hold 320 W, reduce that set to 10\u201311 reps; do not add a set.\n\nEDGE 830 EXECUTION: every ON, FLOAT and between-set step is FREERIDE/non-ERG. Control power with gearing and cadence.\n\nWarm-up\n- 5m 50% FTP\n- 5m 65% FTP\n- 5m 75% FTP\n- 1m 95% FTP\n- 4m 50% FTP\n\nSet 1 13x\n- ON target 320-330 30s freeride\n- FLOAT target 125-145 15s freeride\n\nBetween sets\n- EASY manual reset 5m freeride\n\nSet 2 13x\n- ON target 320-330 30s freeride\n- FLOAT target 125-145 15s freeride\n\nBetween sets\n- EASY manual reset 5m freeride\n\nSet 3 13x\n- ON target 320-330 30s freeride\n- FLOAT target 125-145 15s freeride\n\nCooldown\n- 10m 60% FTP\n- 20m 50% FTP\n\nExpected RPE 8.\nReadiness gate: use the fresh Section 11 readiness decision on the day plus new athlete-reported illness, sleep, soreness, pain, coordination and in-session response. Athlete-reported adverse state overrides favorable modeled metrics. Reduce, substitute or skip rather than forcing the dose, and do not repay reduced or missed work."
     },
@@ -2834,6 +2837,7 @@
       "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
+      "start_time": "19:30",
       "description": "Macro phase: Phase 3 \u2014 FTP development block 1 + durability (2026-11-02 to 2027-01-03).\n\nSection 11 basis: individualized secondary-sport impact maintenance.\nAdaptation target: preserve impact familiarity without competing with Saturday's cycling quality or Sunday's long ride.\n\nProgression classification: HOLD. The latest completed comparable run was 45 minutes at RPE 2 and Feel 3 without an adverse symptom note. No newer completed run establishes a clean progression step, so duration and pace remain unchanged.\n\nExecution: 5-minute easy warm-up, 35 minutes at approximately 6:25\u20136:55/km on flat predictable terrain, then 5-minute easy cool-down. Pace is the default target, but RPE 2\u20133 and symptom control override it. Start only with normal walking/stairs, no pain at rest and no focal shin/ankle tenderness. Stop for focal or increasing pain, pain above 2/10 or gait change. Do not add cycling if shortened or skipped.\n\nPrescription-time control: this first P3 loading week is written before W44 consolidation is executed. W44's absence at writing time is not failure evidence. Retain the listed loading dose only after normal W44 execution/recovery and supportive fresh readiness; otherwise repeat the last clean lower step, reduce, substitute or skip. W44's deliberately reduced work is not evidence that the preceding loading dose failed.\nReadiness gate: use the fresh Section 11 readiness decision on the day plus new athlete-reported illness, sleep, soreness, pain, coordination and in-session response. Athlete-reported adverse state overrides favorable modeled metrics. Reduce, substitute or skip rather than forcing the dose, and do not repay reduced or missed work."
     },
     {
