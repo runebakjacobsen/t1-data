@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-11-01T22:39:49.183606",
+  "generated_at": "2026-11-02T01:51:14.422243",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i198601250",
-      "date": "2026-10-18",
-      "type": "Ride",
-      "name": "P2 W42 - Long Aerobic Durability Hold 3h00",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 11545,
-          "avg_power": 173,
-          "max_power": 343,
-          "avg_hr": 122,
-          "max_hr": 132,
-          "avg_cadence": 85.19061,
-          "zone": 2,
-          "training_load": 133.67622,
-          "decoupling": -2.0129726
-        }
-      ]
-    },
     {
       "activity_id": "i199666139",
       "date": "2026-10-20",
